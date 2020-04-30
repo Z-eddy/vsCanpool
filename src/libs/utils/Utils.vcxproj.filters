@@ -99,9 +99,6 @@
     <ClCompile Include="consoleprocess_win.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="crumblepath.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="delegates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -126,18 +123,12 @@
     <ClCompile Include="environment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="environmentdialog.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="environmentmodel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="execmenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="fadingindicator.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="faketooltip.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -279,9 +270,6 @@
     <ClCompile Include="qtcassert.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="qtcolorbutton.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="qtcprocess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -324,9 +312,6 @@
     <ClCompile Include="stylehelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="synchronousprocess.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="templateengine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -378,9 +363,6 @@
     <ClCompile Include="winutils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="wizard.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="wizardpage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1615,5 +1597,25 @@
   <ItemGroup>
     <ResourceCompile Include=".\Utils_resource.rc" />
     <ResourceCompile Include=".\Utilsd_resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="crumblepath.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="environmentdialog.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fadingindicator.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qtcolorbutton.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="synchronousprocess.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="wizard.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

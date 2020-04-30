@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Generated Files">
@@ -53,16 +53,28 @@
     <ClCompile Include="cursor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fancybanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancybar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="fancybutton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fancydialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fancynavbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="fancynavbutton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fancytab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancytabbar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fancytabwidget.cpp">
@@ -80,7 +92,16 @@
     <ClCompile Include="imodebutton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="minicard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="minisplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ministack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modemanager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pagesorter.cpp">
@@ -92,77 +113,86 @@
     <ClCompile Include="qcanpool_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="quickaccessbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="screenhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simplefilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="skinitem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tinytabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="centralarea.h">
+    <CustomBuild Include="centralarea.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
+    </CustomBuild>
     <ClInclude Include="cursor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <QtMoc Include="fancybanner.h">
+    <CustomBuild Include="fancybanner.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancybar.h">
+    </CustomBuild>
+    <CustomBuild Include="fancybar.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancybutton.h">
+    </CustomBuild>
+    <CustomBuild Include="fancybutton.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancydialog.h">
+    </CustomBuild>
+    <CustomBuild Include="fancydialog.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancynavbar.h">
+    </CustomBuild>
+    <CustomBuild Include="fancynavbar.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancynavbutton.h">
+    </CustomBuild>
+    <CustomBuild Include="fancynavbutton.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancytab.h">
+    </CustomBuild>
+    <CustomBuild Include="fancytab.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancytabbar.h">
+    </CustomBuild>
+    <CustomBuild Include="fancytabbar.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancytabwidget.h">
+    </CustomBuild>
+    <CustomBuild Include="fancytabwidget.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancywindow.h">
+    </CustomBuild>
+    <CustomBuild Include="fancywindow.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="imode.h">
+    </CustomBuild>
+    <CustomBuild Include="imode.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="imodebar.h">
+    </CustomBuild>
+    <CustomBuild Include="imodebar.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="imodebar_p.h">
+    </CustomBuild>
+    <CustomBuild Include="imodebar_p.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="imodebutton.h">
+    </CustomBuild>
+    <CustomBuild Include="imodebutton.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="minicard.h">
+    </CustomBuild>
+    <CustomBuild Include="minicard.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="minisplitter.h">
+    </CustomBuild>
+    <CustomBuild Include="minisplitter.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="ministack.h">
+    </CustomBuild>
+    <CustomBuild Include="ministack.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="modemanager.h">
+    </CustomBuild>
+    <CustomBuild Include="modemanager.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="pagesorter.h">
+    </CustomBuild>
+    <CustomBuild Include="pagesorter.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
+    </CustomBuild>
     <ClInclude Include="qcanpool.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -175,62 +205,242 @@
     <CustomBuild Include="..\..\shared\qtproject_pch.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
-    <QtMoc Include="quickaccessbar.h">
+    <CustomBuild Include="quickaccessbar.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
+    </CustomBuild>
     <ClInclude Include="screenhelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <QtMoc Include="simplefilter.h">
+    <CustomBuild Include="simplefilter.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="skinitem.h">
+    </CustomBuild>
+    <CustomBuild Include="skinitem.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="tinytabwidget.h">
+    </CustomBuild>
+    <CustomBuild Include="tinytabwidget.h">
       <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancybanner.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancybar.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancynavbar.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="fancytabbar.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="minicard.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="ministack.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="modemanager.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="quickaccessbar.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="simplefilter.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="tinytabwidget.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="debug\fancybanner.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\fancybanner.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug\fancybar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\fancybar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug\fancynavbar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\fancynavbar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug\fancytabbar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\fancytabbar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug\minicard.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\minicard.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug\ministack.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\ministack.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="debug\moc_centralarea.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_centralarea.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancybanner.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancybanner.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancybar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancybar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancybutton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancybutton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancydialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancydialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancynavbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancynavbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancynavbutton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancynavbutton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancytab.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancytab.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancytabbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancytabbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancytabwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancytabwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_fancywindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_fancywindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_imode.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_imode.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_imodebar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_imodebar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_imodebar_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_imodebar_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_imodebutton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_imodebutton.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_minicard.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_minicard.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_minisplitter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_minisplitter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_ministack.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_ministack.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_modemanager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_modemanager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_pagesorter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_pagesorter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
     <CustomBuild Include="debug\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
     <CustomBuild Include="release\moc_predefs.h.cbt">
       <Filter>Generated Files</Filter>
     </CustomBuild>
+    <ClCompile Include="debug\moc_quickaccessbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_quickaccessbar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_simplefilter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_simplefilter.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_skinitem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_skinitem.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\moc_tinytabwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_tinytabwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include="debug\modemanager.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\modemanager.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="debug\qrc_qcanpool.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\qrc_qcanpool.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\shared\qtproject_pch.h.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <CustomBuild Include="debug\quickaccessbar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\quickaccessbar.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug\simplefilter.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\simplefilter.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="debug\tinytabwidget.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\tinytabwidget.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <None Include="resource\qm\qcanpool_zh_CN.ts">
@@ -280,9 +490,9 @@
     <None Include="resource\main\min2.png">
       <Filter>Resource Files</Filter>
     </None>
-    <QtRcc Include="qcanpool.qrc">
+    <CustomBuild Include="qcanpool.qrc">
       <Filter>Resource Files</Filter>
-    </QtRcc>
+    </CustomBuild>
     <None Include="resource\main\restore.png">
       <Filter>Resource Files</Filter>
     </None>
@@ -300,7 +510,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include=".\qcanpool_resource.rc" />
-    <ResourceCompile Include=".\qcanpoold_resource.rc" />
+    <ResourceCompile Include="qcanpoold_resource.rc" />
   </ItemGroup>
 </Project>

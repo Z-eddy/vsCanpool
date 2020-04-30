@@ -53,27 +53,12 @@
     <ClCompile Include="liteboard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="litedialog.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="litemodebar.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="litescreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="litetabbar.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="litetabwidget.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="litewidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <QtMoc Include="litewindow.cpp">
-      <Filter>Source Files</Filter>
-    </QtMoc>
     <ClCompile Include="qlite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -118,6 +103,21 @@
     <CustomBuild Include="..\..\shared\qtproject_pch.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <QtMoc Include="litedialog.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litemodebar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litetabbar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litetabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litewindow.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="debug\moc_predefs.h.cbt">

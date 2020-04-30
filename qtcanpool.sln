@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qcanpool", "src\libs\qcanpool\qcanpool.vcxproj", "{C7F67DB2-53E1-3047-92D6-FA015961A0E2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qcanpool", "src\libs\qcanpool\qcanpool.vcxproj", "{B7859FC5-FC9B-3DA4-B9F4-1E851E88FA56}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "license", "src\libs\license\license.vcxproj", "{A27D124C-E87B-32D2-9348-B0412E9C4664}"
 EndProject
@@ -28,9 +28,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liccreator", "src\tools\lic
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fancydemo", "demos\fancydemo\fancydemo.vcxproj", "{1DA07829-E9F0-332C-88D8-BA5E02B92311}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C7F67DB2-53E1-3047-92D6-FA015961A0E2} = {C7F67DB2-53E1-3047-92D6-FA015961A0E2}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtqrcode", "demos\qtqrcode\qtqrcode.vcxproj", "{485792A6-18D6-3332-8DE4-0B202335DA45}"
 EndProject
@@ -99,10 +96,10 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C7F67DB2-53E1-3047-92D6-FA015961A0E2}.Debug|x64.ActiveCfg = Debug|x64
-		{C7F67DB2-53E1-3047-92D6-FA015961A0E2}.Debug|x64.Build.0 = Debug|x64
-		{C7F67DB2-53E1-3047-92D6-FA015961A0E2}.Release|x64.ActiveCfg = Release|x64
-		{C7F67DB2-53E1-3047-92D6-FA015961A0E2}.Release|x64.Build.0 = Release|x64
+		{B7859FC5-FC9B-3DA4-B9F4-1E851E88FA56}.Debug|x64.ActiveCfg = Debug|x64
+		{B7859FC5-FC9B-3DA4-B9F4-1E851E88FA56}.Debug|x64.Build.0 = Debug|x64
+		{B7859FC5-FC9B-3DA4-B9F4-1E851E88FA56}.Release|x64.ActiveCfg = Release|x64
+		{B7859FC5-FC9B-3DA4-B9F4-1E851E88FA56}.Release|x64.Build.0 = Release|x64
 		{A27D124C-E87B-32D2-9348-B0412E9C4664}.Debug|x64.ActiveCfg = Debug|x64
 		{A27D124C-E87B-32D2-9348-B0412E9C4664}.Debug|x64.Build.0 = Debug|x64
 		{A27D124C-E87B-32D2-9348-B0412E9C4664}.Release|x64.ActiveCfg = Release|x64
@@ -200,7 +197,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		Qt5Version = msvc2017_64
 		SolutionGuid = {01A7BA57-4412-45AB-8279-D14A62855AF7}
+		Qt5Version = msvc2017_64
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,1822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36F984A1-C8DB-37F2-A8B9-7CBB11ADD9BE}</ProjectGuid>
+    <RootNamespace>qribbon</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>..\..\..\lib\qtproject\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>qribbon3</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>..\..\..\lib\qtproject\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>qribbond3</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\lib\qtproject\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qribbon3</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\lib\qtproject\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qribbond3</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;/src/libs/qribbon/include;..\..\..\src;..\..\libs;E:/Practice/qtcanpool/tools;..\..\plugins;..\..\..\include;/../include;include;$(QTDIR)\include\QtWidgets\5.12.7;$(QTDIR)\include\QtWidgets\5.12.7\QtWidgets;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtGui\5.12.7;$(QTDIR)\include\QtGui\5.12.7\QtGui;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtConcurrent;$(QTDIR)\include\QtCore\5.12.7;$(QTDIR)\include\QtCore\5.12.7\QtCore;$(QTDIR)\include\QtCore;release;D:\code\VulkanSDK\1.1.114.0\include;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>..\..\shared\qtproject_pch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>..\..\shared\qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)\qribbon.pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;"RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins"";"RELATIVE_LIBEXEC_PATH="."";"RELATIVE_DATA_PATH="../share/qtproject"";"RELATIVE_DOC_PATH="../share/doc/qtproject"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;QT_MESSAGELOGCONTEXT;_WINDOWS;QTITAN_LIBRARY;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib";$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Concurrent.lib;$(QTDIR)\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;E:\Practice\qtcanpool\lib\qtproject;E:\Practice\qtcanpool\lib\qtproject\plugins;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\qribbon3.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>3.1</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;"RELATIVE_PLUGIN_PATH=\"../lib/qtproject/plugins\"";"RELATIVE_LIBEXEC_PATH=\".\"";"RELATIVE_DATA_PATH=\"../share/qtproject\"";"RELATIVE_DOC_PATH=\"../share/doc/qtproject\"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;QT_MESSAGELOGCONTEXT;_WINDOWS;QTITAN_LIBRARY;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\..\..\bin</Command>
+      <Message>Copy qribbon3.dll to ..\..\..\bin</Message>
+    </PostBuildEvent>
+    <QtMoc>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins";RELATIVE_LIBEXEC_PATH=".";RELATIVE_DATA_PATH="../share/qtproject";RELATIVE_DOC_PATH="../share/doc/qtproject";IDE_LIBRARY_BASENAME=lib;QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;QT_MESSAGELOGCONTEXT;_WINDOWS;QTITAN_LIBRARY;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB</Define>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <InputFile>%(FullPath)</InputFile>
+      <DynamicSource>output</DynamicSource>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;$(QTDIR)\mkspecs/win32-msvc;.;E:/src/libs/qribbon/include;E:/Practice/qtcanpool/src;E:/Practice/qtcanpool/src/libs;E:/Practice/qtcanpool/tools;E:/Practice/qtcanpool/src/plugins;E:/Practice/qtcanpool/include;E:/../include;./include;$(QTDIR)\include/QtWidgets/5.12.7;$(QTDIR)\include/QtWidgets/5.12.7/QtWidgets;$(QTDIR)\include;$(QTDIR)\include/QtWidgets;$(QTDIR)\include/QtGui/5.12.7;$(QTDIR)\include/QtGui/5.12.7/QtGui;$(QTDIR)\include/QtGui;$(QTDIR)\include/QtANGLE;$(QTDIR)\include/QtConcurrent;$(QTDIR)\include/QtCore/5.12.7;$(QTDIR)\include/QtCore/5.12.7/QtCore;$(QTDIR)\include/QtCore;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt</IncludePath>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>QtnRibbonResources</InitFuncName>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <Compression>default</Compression>
+      <InputFile>%(FullPath)</InputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;/src/libs/qribbon/include;..\..\..\src;..\..\libs;E:/Practice/qtcanpool/tools;..\..\plugins;..\..\..\include;/../include;include;$(QTDIR)\include\QtWidgets\5.12.7;$(QTDIR)\include\QtWidgets\5.12.7\QtWidgets;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtGui\5.12.7;$(QTDIR)\include\QtGui\5.12.7\QtGui;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtTest;$(QTDIR)\include\QtConcurrent;$(QTDIR)\include\QtCore\5.12.7;$(QTDIR)\include\QtCore\5.12.7\QtCore;$(QTDIR)\include\QtCore;debug;D:\code\VulkanSDK\1.1.114.0\include;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>..\..\shared\qtproject_pch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>..\..\shared\qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)\qribbond.pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;WITH_TESTS;"RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins"";"RELATIVE_LIBEXEC_PATH="."";"RELATIVE_DATA_PATH="../share/qtproject"";"RELATIVE_DOC_PATH="../share/doc/qtproject"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;_WINDOWS;QTITAN_LIBRARY;QT_WIDGETS_LIB;QT_GUI_LIB;QT_TESTLIB_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib";$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Testd.lib;$(QTDIR)\lib\Qt5Concurrentd.lib;$(QTDIR)\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;E:\Practice\qtcanpool\lib\qtproject;E:\Practice\qtcanpool\lib\qtproject\plugins;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\qribbond3.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>3.1</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;WITH_TESTS;"RELATIVE_PLUGIN_PATH=\"../lib/qtproject/plugins\"";"RELATIVE_LIBEXEC_PATH=\".\"";"RELATIVE_DATA_PATH=\"../share/qtproject\"";"RELATIVE_DOC_PATH=\"../share/doc/qtproject\"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;_WINDOWS;QTITAN_LIBRARY;QT_WIDGETS_LIB;QT_GUI_LIB;QT_TESTLIB_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\..\..\bin</Command>
+      <Message>Copy qribbond3.dll to ..\..\..\bin</Message>
+    </PostBuildEvent>
+    <QtMoc>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;WITH_TESTS;RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins";RELATIVE_LIBEXEC_PATH=".";RELATIVE_DATA_PATH="../share/qtproject";RELATIVE_DOC_PATH="../share/doc/qtproject";IDE_LIBRARY_BASENAME=lib;QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;_WINDOWS;QTITAN_LIBRARY;QT_WIDGETS_LIB;QT_GUI_LIB;QT_TESTLIB_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=.</Define>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <InputFile>%(FullPath)</InputFile>
+      <DynamicSource>output</DynamicSource>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;$(QTDIR)\mkspecs/win32-msvc;.;E:/src/libs/qribbon/include;E:/Practice/qtcanpool/src;E:/Practice/qtcanpool/src/libs;E:/Practice/qtcanpool/tools;E:/Practice/qtcanpool/src/plugins;E:/Practice/qtcanpool/include;E:/../include;./include;$(QTDIR)\include/QtWidgets/5.12.7;$(QTDIR)\include/QtWidgets/5.12.7/QtWidgets;$(QTDIR)\include;$(QTDIR)\include/QtWidgets;$(QTDIR)\include/QtGui/5.12.7;$(QTDIR)\include/QtGui/5.12.7/QtGui;$(QTDIR)\include/QtGui;$(QTDIR)\include/QtANGLE;$(QTDIR)\include/QtTest;$(QTDIR)\include/QtConcurrent;$(QTDIR)\include/QtCore/5.12.7;$(QTDIR)\include/QtCore/5.12.7/QtCore;$(QTDIR)\include/QtCore;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt</IncludePath>
+    </QtMoc>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <Compression>default</Compression>
+      <InitFuncName>QtnRibbonResources</InitFuncName>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+      <InputFile>%(FullPath)</InputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\styles\QtnCommonStyle.cpp" />
+    <ClCompile Include="src\styles\QtnCommonStyle_win.cpp" />
+    <ClCompile Include="src\ribbon\QtnOfficeFrameHelper_win.cpp" />
+    <ClCompile Include="src\ribbon\QtnOfficePopupColorButton.cpp" />
+    <ClCompile Include="src\ribbon\QtnOfficePopupMenu.cpp" />
+    <ClCompile Include="src\ribbon\QtnOfficePopupWindow.cpp" />
+    <ClCompile Include="src\styles\QtnOfficeStyle.cpp" />
+    <ClCompile Include="src\styles\QtnPopupHelpers.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonBackstageView.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonBar.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonButton.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonGallery.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonGroup.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonGroupLayout.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonMainWindow.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonPage.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonPrivate.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonQuickAccessBar.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonSliderPane.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonStatusBar.cpp" />
+    <ClCompile Include="src\styles\QtnRibbonStyle.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonSystemPopupBar.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonTabBar.cpp" />
+    <ClCompile Include="src\ribbon\QtnRibbonToolTip.cpp" />
+    <ClCompile Include="src\styles\QtnStyleHelpers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\styles\QtnCommonStyle.h">
+    </QtMoc>
+    <ClInclude Include="src\styles\QtnCommonStylePrivate.h" />
+    <ClInclude Include="src\ribbon\QtnOfficeDefines.h" />
+    <QtMoc Include="src\ribbon\QtnOfficeFrameHelper_win.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnOfficePopupColorButton.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnOfficePopupMenu.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnOfficePopupWindow.h">
+    </QtMoc>
+    <QtMoc Include="src\styles\QtnOfficeStyle.h">
+    </QtMoc>
+    <QtMoc Include="src\styles\QtnPopupHelpers.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBackstageView.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBackstageViewPrivate.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBar.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBarPrivate.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonButton.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGallery.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGalleryPrivate.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGroup.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGroupLayout.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGroupPrivate.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonMainWindow.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonPage.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonPrivate.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonQuickAccessBar.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonSliderPane.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonStatusBar.h">
+    </QtMoc>
+    <QtMoc Include="src\styles\QtnRibbonStyle.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonSystemPopupBar.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonTabBar.h">
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonToolTip.h">
+    </QtMoc>
+    <ClInclude Include="src\styles\QtnStyleHelpers.h" />
+    <CustomBuild Include="..\..\shared\qtproject_pch.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">echo /*-------------------------------------------------------------------- &gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Precompiled header source file used by Visual Studio.NET to generate&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * the .pch file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Due to issues with the dependencies checker within the IDE, it&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * sometimes fails to recompile the PCH file, if we force the IDE to&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * create the PCH file directly from the header file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * specified, and is used as the common stdafx.cpp. The file is only&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * generated when creating .vcxproj project files, and is not used for&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * command line compilations by nmake.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * WARNING: All changes made in this file will be lost.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo --------------------------------------------------------------------*/&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo #include "qtproject_pch.h"&gt;&gt;..\..\shared\qtproject_pch.h.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating precompiled header source file '..\..\shared\qtproject_pch.h.cpp' ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\shared\qtproject_pch.h.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">echo /*-------------------------------------------------------------------- &gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Precompiled header source file used by Visual Studio.NET to generate&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * the .pch file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Due to issues with the dependencies checker within the IDE, it&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * sometimes fails to recompile the PCH file, if we force the IDE to&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * create the PCH file directly from the header file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * specified, and is used as the common stdafx.cpp. The file is only&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * generated when creating .vcxproj project files, and is not used for&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * command line compilations by nmake.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * WARNING: All changes made in this file will be lost.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo --------------------------------------------------------------------*/&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo #include "qtproject_pch.h"&gt;&gt;..\..\shared\qtproject_pch.h.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating precompiled header source file '..\..\shared\qtproject_pch.h.cpp' ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\shared\qtproject_pch.h.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MDd -std:c++14 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -std:c++14 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <ClCompile Include="..\..\shared\qtproject_pch.h.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(NOINHERIT)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NOINHERIT)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GAEA2014Black\AccessTab.png" />
+    <None Include="res\Office2007Aqua\AccessTab.png" />
+    <None Include="res\Office2007Black\AccessTab.png" />
+    <None Include="res\Office2007Blue\AccessTab.png" />
+    <None Include="res\Office2007Silver\AccessTab.png" />
+    <None Include="res\Office2010Black\AccessTab.png" />
+    <None Include="res\Office2010Blue\AccessTab.png" />
+    <None Include="res\Office2010Silver\AccessTab.png" />
+    <None Include="res\Windows7Scenic\AccessTab.png" />
+    <None Include="res\Office2007Blue\BackstageButton.png" />
+    <None Include="res\Office2010Blue\BackstageButton.png" />
+    <None Include="res\Windows7Scenic\BackstageButton.png" />
+    <None Include="res\Office2007Blue\BackstageButtonGlyph.png" />
+    <None Include="res\Office2010Blue\BackstageButtonGlyph.png" />
+    <None Include="res\Windows7Scenic\BackstageButtonGlyph.png" />
+    <None Include="res\GAEA2014Black\BackstageMenuBackground.png" />
+    <None Include="res\Office2007Aqua\BackstageMenuBackground.png" />
+    <None Include="res\Office2007Black\BackstageMenuBackground.png" />
+    <None Include="res\Office2007Blue\BackstageMenuBackground.png" />
+    <None Include="res\Office2007Silver\BackstageMenuBackground.png" />
+    <None Include="res\Office2010Black\BackstageMenuBackground.png" />
+    <None Include="res\Office2010Blue\BackstageMenuBackground.png" />
+    <None Include="res\Office2010Silver\BackstageMenuBackground.png" />
+    <None Include="res\Windows7Scenic\BackstageMenuBackground.png" />
+    <None Include="res\GAEA2014Black\BackstageMenuCommand.png" />
+    <None Include="res\Office2007Aqua\BackstageMenuCommand.png" />
+    <None Include="res\Office2007Black\BackstageMenuCommand.png" />
+    <None Include="res\Office2007Blue\BackstageMenuCommand.png" />
+    <None Include="res\Office2007Silver\BackstageMenuCommand.png" />
+    <None Include="res\Office2010Black\BackstageMenuCommand.png" />
+    <None Include="res\Office2010Blue\BackstageMenuCommand.png" />
+    <None Include="res\Office2010Silver\BackstageMenuCommand.png" />
+    <None Include="res\Windows7Scenic\BackstageMenuCommand.png" />
+    <None Include="res\GAEA2014Black\BackstageMenuPage.png" />
+    <None Include="res\Office2007Aqua\BackstageMenuPage.png" />
+    <None Include="res\Office2007Black\BackstageMenuPage.png" />
+    <None Include="res\Office2007Blue\BackstageMenuPage.png" />
+    <None Include="res\Office2007Silver\BackstageMenuPage.png" />
+    <None Include="res\Office2010Black\BackstageMenuPage.png" />
+    <None Include="res\Office2010Blue\BackstageMenuPage.png" />
+    <None Include="res\Office2010Silver\BackstageMenuPage.png" />
+    <None Include="res\Windows7Scenic\BackstageMenuPage.png" />
+    <None Include="res\GAEA2014Black\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2007Aqua\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2007Black\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2007Blue\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2007Silver\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2010Black\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2010Blue\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2010Silver\BackstageMenuPageGlyph.png" />
+    <None Include="res\Windows7Scenic\BackstageMenuPageGlyph.png" />
+    <None Include="res\Office2007Blue\BackstagePaneSeparator.png" />
+    <None Include="res\Office2010Blue\BackstagePaneSeparator.png" />
+    <None Include="res\Windows7Scenic\BackstagePaneSeparator.png" />
+    <None Include="res\GAEA2014Black\BackstageTopBorder.png" />
+    <None Include="res\Office2007Aqua\BackstageTopBorder.png" />
+    <None Include="res\Office2007Black\BackstageTopBorder.png" />
+    <None Include="res\Office2007Blue\BackstageTopBorder.png" />
+    <None Include="res\Office2007Silver\BackstageTopBorder.png" />
+    <None Include="res\Office2010Black\BackstageTopBorder.png" />
+    <None Include="res\Office2010Blue\BackstageTopBorder.png" />
+    <None Include="res\Office2010Silver\BackstageTopBorder.png" />
+    <None Include="res\Windows7Scenic\BackstageTopBorder.png" />
+    <None Include="res\GAEA2014Black\ContextPageBlueClient.png" />
+    <None Include="res\Office2007Aqua\ContextPageBlueClient.png" />
+    <None Include="res\Office2007Black\ContextPageBlueClient.png" />
+    <None Include="res\Office2007Blue\ContextPageBlueClient.png" />
+    <None Include="res\Office2007Silver\ContextPageBlueClient.png" />
+    <None Include="res\Office2010Black\ContextPageBlueClient.png" />
+    <None Include="res\Office2010Blue\ContextPageBlueClient.png" />
+    <None Include="res\Office2010Silver\ContextPageBlueClient.png" />
+    <None Include="res\Windows7Scenic\ContextPageBlueClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageBlueGroupButton.png" />
+    <None Include="res\Office2007Aqua\ContextPageBlueGroupButton.png" />
+    <None Include="res\Office2007Black\ContextPageBlueGroupButton.png" />
+    <None Include="res\Office2007Blue\ContextPageBlueGroupButton.png" />
+    <None Include="res\Office2007Silver\ContextPageBlueGroupButton.png" />
+    <None Include="res\Office2010Black\ContextPageBlueGroupButton.png" />
+    <None Include="res\Office2010Blue\ContextPageBlueGroupButton.png" />
+    <None Include="res\Office2010Silver\ContextPageBlueGroupButton.png" />
+    <None Include="res\Windows7Scenic\ContextPageBlueGroupButton.png" />
+    <None Include="res\GAEA2014Black\ContextPageBlueGroupClient.png" />
+    <None Include="res\Office2010Black\ContextPageBlueGroupClient.png" />
+    <None Include="res\Office2010Blue\ContextPageBlueGroupClient.png" />
+    <None Include="res\Office2010Silver\ContextPageBlueGroupClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageCyanClient.png" />
+    <None Include="res\Office2007Aqua\ContextPageCyanClient.png" />
+    <None Include="res\Office2007Black\ContextPageCyanClient.png" />
+    <None Include="res\Office2007Blue\ContextPageCyanClient.png" />
+    <None Include="res\Office2007Silver\ContextPageCyanClient.png" />
+    <None Include="res\Office2010Black\ContextPageCyanClient.png" />
+    <None Include="res\Office2010Blue\ContextPageCyanClient.png" />
+    <None Include="res\Office2010Silver\ContextPageCyanClient.png" />
+    <None Include="res\Windows7Scenic\ContextPageCyanClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageCyanGroupButton.png" />
+    <None Include="res\Office2007Aqua\ContextPageCyanGroupButton.png" />
+    <None Include="res\Office2007Black\ContextPageCyanGroupButton.png" />
+    <None Include="res\Office2007Blue\ContextPageCyanGroupButton.png" />
+    <None Include="res\Office2007Silver\ContextPageCyanGroupButton.png" />
+    <None Include="res\Office2010Black\ContextPageCyanGroupButton.png" />
+    <None Include="res\Office2010Blue\ContextPageCyanGroupButton.png" />
+    <None Include="res\Office2010Silver\ContextPageCyanGroupButton.png" />
+    <None Include="res\Windows7Scenic\ContextPageCyanGroupButton.png" />
+    <None Include="res\GAEA2014Black\ContextPageCyanGroupClient.png" />
+    <None Include="res\Office2010Black\ContextPageCyanGroupClient.png" />
+    <None Include="res\Office2010Blue\ContextPageCyanGroupClient.png" />
+    <None Include="res\Office2010Silver\ContextPageCyanGroupClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageGreenClient.png" />
+    <None Include="res\Office2007Aqua\ContextPageGreenClient.png" />
+    <None Include="res\Office2007Black\ContextPageGreenClient.png" />
+    <None Include="res\Office2007Blue\ContextPageGreenClient.png" />
+    <None Include="res\Office2007Silver\ContextPageGreenClient.png" />
+    <None Include="res\Office2010Black\ContextPageGreenClient.png" />
+    <None Include="res\Office2010Blue\ContextPageGreenClient.png" />
+    <None Include="res\Office2010Silver\ContextPageGreenClient.png" />
+    <None Include="res\Windows7Scenic\ContextPageGreenClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageGreenGroupButton.png" />
+    <None Include="res\Office2007Aqua\ContextPageGreenGroupButton.png" />
+    <None Include="res\Office2007Black\ContextPageGreenGroupButton.png" />
+    <None Include="res\Office2007Blue\ContextPageGreenGroupButton.png" />
+    <None Include="res\Office2007Silver\ContextPageGreenGroupButton.png" />
+    <None Include="res\Office2010Black\ContextPageGreenGroupButton.png" />
+    <None Include="res\Office2010Blue\ContextPageGreenGroupButton.png" />
+    <None Include="res\Office2010Silver\ContextPageGreenGroupButton.png" />
+    <None Include="res\Windows7Scenic\ContextPageGreenGroupButton.png" />
+    <None Include="res\GAEA2014Black\ContextPageGreenGroupClient.png" />
+    <None Include="res\Office2010Black\ContextPageGreenGroupClient.png" />
+    <None Include="res\Office2010Blue\ContextPageGreenGroupClient.png" />
+    <None Include="res\Office2010Silver\ContextPageGreenGroupClient.png" />
+    <None Include="res\Office2007Aqua\ContextPageGroupCaption.png" />
+    <None Include="res\Office2007Black\ContextPageGroupCaption.png" />
+    <None Include="res\Office2007Blue\ContextPageGroupCaption.png" />
+    <None Include="res\Office2007Silver\ContextPageGroupCaption.png" />
+    <None Include="res\Office2007Aqua\ContextPageGroupClient.png" />
+    <None Include="res\Office2007Black\ContextPageGroupClient.png" />
+    <None Include="res\Office2007Blue\ContextPageGroupClient.png" />
+    <None Include="res\Office2007Silver\ContextPageGroupClient.png" />
+    <None Include="res\Windows7Scenic\ContextPageGroupClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageOrangeClient.png" />
+    <None Include="res\Office2007Aqua\ContextPageOrangeClient.png" />
+    <None Include="res\Office2007Black\ContextPageOrangeClient.png" />
+    <None Include="res\Office2007Blue\ContextPageOrangeClient.png" />
+    <None Include="res\Office2007Silver\ContextPageOrangeClient.png" />
+    <None Include="res\Office2010Black\ContextPageOrangeClient.png" />
+    <None Include="res\Office2010Blue\ContextPageOrangeClient.png" />
+    <None Include="res\Office2010Silver\ContextPageOrangeClient.png" />
+    <None Include="res\Windows7Scenic\ContextPageOrangeClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Office2007Aqua\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Office2007Black\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Office2007Blue\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Office2007Silver\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Office2010Black\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Office2010Blue\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Office2010Silver\ContextPageOrangeGroupButton.png" />
+    <None Include="res\Windows7Scenic\ContextPageOrangeGroupButton.png" />
+    <None Include="res\GAEA2014Black\ContextPageOrangeGroupClient.png" />
+    <None Include="res\Office2010Black\ContextPageOrangeGroupClient.png" />
+    <None Include="res\Office2010Blue\ContextPageOrangeGroupClient.png" />
+    <None Include="res\Office2010Silver\ContextPageOrangeGroupClient.png" />
+    <None Include="res\GAEA2014Black\ContextPagePurpleClient.png" />
+    <None Include="res\Office2007Aqua\ContextPagePurpleClient.png" />
+    <None Include="res\Office2007Black\ContextPagePurpleClient.png" />
+    <None Include="res\Office2007Blue\ContextPagePurpleClient.png" />
+    <None Include="res\Office2007Silver\ContextPagePurpleClient.png" />
+    <None Include="res\Office2010Black\ContextPagePurpleClient.png" />
+    <None Include="res\Office2010Blue\ContextPagePurpleClient.png" />
+    <None Include="res\Office2010Silver\ContextPagePurpleClient.png" />
+    <None Include="res\Windows7Scenic\ContextPagePurpleClient.png" />
+    <None Include="res\GAEA2014Black\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Office2007Aqua\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Office2007Black\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Office2007Blue\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Office2007Silver\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Office2010Black\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Office2010Blue\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Office2010Silver\ContextPagePurpleGroupButton.png" />
+    <None Include="res\Windows7Scenic\ContextPagePurpleGroupButton.png" />
+    <None Include="res\GAEA2014Black\ContextPagePurpleGroupClient.png" />
+    <None Include="res\Office2010Black\ContextPagePurpleGroupClient.png" />
+    <None Include="res\Office2010Blue\ContextPagePurpleGroupClient.png" />
+    <None Include="res\Office2010Silver\ContextPagePurpleGroupClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageRedClient.png" />
+    <None Include="res\Office2007Aqua\ContextPageRedClient.png" />
+    <None Include="res\Office2007Black\ContextPageRedClient.png" />
+    <None Include="res\Office2007Blue\ContextPageRedClient.png" />
+    <None Include="res\Office2007Silver\ContextPageRedClient.png" />
+    <None Include="res\Office2010Black\ContextPageRedClient.png" />
+    <None Include="res\Office2010Blue\ContextPageRedClient.png" />
+    <None Include="res\Office2010Silver\ContextPageRedClient.png" />
+    <None Include="res\Windows7Scenic\ContextPageRedClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageRedGroupButton.png" />
+    <None Include="res\Office2007Aqua\ContextPageRedGroupButton.png" />
+    <None Include="res\Office2007Black\ContextPageRedGroupButton.png" />
+    <None Include="res\Office2007Blue\ContextPageRedGroupButton.png" />
+    <None Include="res\Office2007Silver\ContextPageRedGroupButton.png" />
+    <None Include="res\Office2010Black\ContextPageRedGroupButton.png" />
+    <None Include="res\Office2010Blue\ContextPageRedGroupButton.png" />
+    <None Include="res\Office2010Silver\ContextPageRedGroupButton.png" />
+    <None Include="res\Windows7Scenic\ContextPageRedGroupButton.png" />
+    <None Include="res\GAEA2014Black\ContextPageRedGroupClient.png" />
+    <None Include="res\Office2010Black\ContextPageRedGroupClient.png" />
+    <None Include="res\Office2010Blue\ContextPageRedGroupClient.png" />
+    <None Include="res\Office2010Silver\ContextPageRedGroupClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageYellowClient.png" />
+    <None Include="res\Office2007Aqua\ContextPageYellowClient.png" />
+    <None Include="res\Office2007Black\ContextPageYellowClient.png" />
+    <None Include="res\Office2007Blue\ContextPageYellowClient.png" />
+    <None Include="res\Office2007Silver\ContextPageYellowClient.png" />
+    <None Include="res\Office2010Black\ContextPageYellowClient.png" />
+    <None Include="res\Office2010Blue\ContextPageYellowClient.png" />
+    <None Include="res\Office2010Silver\ContextPageYellowClient.png" />
+    <None Include="res\Windows7Scenic\ContextPageYellowClient.png" />
+    <None Include="res\GAEA2014Black\ContextPageYellowGroupButton.png" />
+    <None Include="res\Office2007Aqua\ContextPageYellowGroupButton.png" />
+    <None Include="res\Office2007Black\ContextPageYellowGroupButton.png" />
+    <None Include="res\Office2007Blue\ContextPageYellowGroupButton.png" />
+    <None Include="res\Office2007Silver\ContextPageYellowGroupButton.png" />
+    <None Include="res\Office2010Black\ContextPageYellowGroupButton.png" />
+    <None Include="res\Office2010Blue\ContextPageYellowGroupButton.png" />
+    <None Include="res\Office2010Silver\ContextPageYellowGroupButton.png" />
+    <None Include="res\Windows7Scenic\ContextPageYellowGroupButton.png" />
+    <None Include="res\GAEA2014Black\ContextPageYellowGroupClient.png" />
+    <None Include="res\Office2010Black\ContextPageYellowGroupClient.png" />
+    <None Include="res\Office2010Blue\ContextPageYellowGroupClient.png" />
+    <None Include="res\Office2010Silver\ContextPageYellowGroupClient.png" />
+    <None Include="res\GAEA2014Black\ContextTabBlue.png" />
+    <None Include="res\Office2007Aqua\ContextTabBlue.png" />
+    <None Include="res\Office2007Black\ContextTabBlue.png" />
+    <None Include="res\Office2007Blue\ContextTabBlue.png" />
+    <None Include="res\Office2007Silver\ContextTabBlue.png" />
+    <None Include="res\Office2010Black\ContextTabBlue.png" />
+    <None Include="res\Office2010Blue\ContextTabBlue.png" />
+    <None Include="res\Office2010Silver\ContextTabBlue.png" />
+    <None Include="res\Windows7Scenic\ContextTabBlue.png" />
+    <None Include="res\GAEA2014Black\ContextTabBlueBackground.png" />
+    <None Include="res\Office2010Black\ContextTabBlueBackground.png" />
+    <None Include="res\Office2010Blue\ContextTabBlueBackground.png" />
+    <None Include="res\Office2010Silver\ContextTabBlueBackground.png" />
+    <None Include="res\GAEA2014Black\ContextTabBlueHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabBlueHeader.png" />
+    <None Include="res\Office2007Black\ContextTabBlueHeader.png" />
+    <None Include="res\Office2007Blue\ContextTabBlueHeader.png" />
+    <None Include="res\Office2007Silver\ContextTabBlueHeader.png" />
+    <None Include="res\Office2010Black\ContextTabBlueHeader.png" />
+    <None Include="res\Office2010Blue\ContextTabBlueHeader.png" />
+    <None Include="res\Office2010Silver\ContextTabBlueHeader.png" />
+    <None Include="res\Windows7Scenic\ContextTabBlueHeader.png" />
+    <None Include="res\GAEA2014Black\ContextTabCyan.png" />
+    <None Include="res\Office2007Aqua\ContextTabCyan.png" />
+    <None Include="res\Office2007Black\ContextTabCyan.png" />
+    <None Include="res\Office2007Blue\ContextTabCyan.png" />
+    <None Include="res\Office2007Silver\ContextTabCyan.png" />
+    <None Include="res\Office2010Black\ContextTabCyan.png" />
+    <None Include="res\Office2010Blue\ContextTabCyan.png" />
+    <None Include="res\Office2010Silver\ContextTabCyan.png" />
+    <None Include="res\Windows7Scenic\ContextTabCyan.png" />
+    <None Include="res\GAEA2014Black\ContextTabCyanBackground.png" />
+    <None Include="res\Office2010Black\ContextTabCyanBackground.png" />
+    <None Include="res\Office2010Blue\ContextTabCyanBackground.png" />
+    <None Include="res\Office2010Silver\ContextTabCyanBackground.png" />
+    <None Include="res\GAEA2014Black\ContextTabCyanHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabCyanHeader.png" />
+    <None Include="res\Office2007Black\ContextTabCyanHeader.png" />
+    <None Include="res\Office2007Blue\ContextTabCyanHeader.png" />
+    <None Include="res\Office2007Silver\ContextTabCyanHeader.png" />
+    <None Include="res\Office2010Black\ContextTabCyanHeader.png" />
+    <None Include="res\Office2010Blue\ContextTabCyanHeader.png" />
+    <None Include="res\Office2010Silver\ContextTabCyanHeader.png" />
+    <None Include="res\Windows7Scenic\ContextTabCyanHeader.png" />
+    <None Include="res\GAEA2014Black\ContextTabGreen.png" />
+    <None Include="res\Office2007Aqua\ContextTabGreen.png" />
+    <None Include="res\Office2007Black\ContextTabGreen.png" />
+    <None Include="res\Office2007Blue\ContextTabGreen.png" />
+    <None Include="res\Office2007Silver\ContextTabGreen.png" />
+    <None Include="res\Office2010Black\ContextTabGreen.png" />
+    <None Include="res\Office2010Blue\ContextTabGreen.png" />
+    <None Include="res\Office2010Silver\ContextTabGreen.png" />
+    <None Include="res\Windows7Scenic\ContextTabGreen.png" />
+    <None Include="res\GAEA2014Black\ContextTabGreenBackground.png" />
+    <None Include="res\Office2010Black\ContextTabGreenBackground.png" />
+    <None Include="res\Office2010Blue\ContextTabGreenBackground.png" />
+    <None Include="res\Office2010Silver\ContextTabGreenBackground.png" />
+    <None Include="res\GAEA2014Black\ContextTabGreenHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabGreenHeader.png" />
+    <None Include="res\Office2007Black\ContextTabGreenHeader.png" />
+    <None Include="res\Office2007Blue\ContextTabGreenHeader.png" />
+    <None Include="res\Office2007Silver\ContextTabGreenHeader.png" />
+    <None Include="res\Office2010Black\ContextTabGreenHeader.png" />
+    <None Include="res\Office2010Blue\ContextTabGreenHeader.png" />
+    <None Include="res\Office2010Silver\ContextTabGreenHeader.png" />
+    <None Include="res\Windows7Scenic\ContextTabGreenHeader.png" />
+    <None Include="res\GAEA2014Black\ContextTabOrange.png" />
+    <None Include="res\Office2007Aqua\ContextTabOrange.png" />
+    <None Include="res\Office2007Black\ContextTabOrange.png" />
+    <None Include="res\Office2007Blue\ContextTabOrange.png" />
+    <None Include="res\Office2007Silver\ContextTabOrange.png" />
+    <None Include="res\Office2010Black\ContextTabOrange.png" />
+    <None Include="res\Office2010Blue\ContextTabOrange.png" />
+    <None Include="res\Office2010Silver\ContextTabOrange.png" />
+    <None Include="res\Windows7Scenic\ContextTabOrange.png" />
+    <None Include="res\GAEA2014Black\ContextTabOrangeBackground.png" />
+    <None Include="res\Office2010Black\ContextTabOrangeBackground.png" />
+    <None Include="res\Office2010Blue\ContextTabOrangeBackground.png" />
+    <None Include="res\Office2010Silver\ContextTabOrangeBackground.png" />
+    <None Include="res\GAEA2014Black\ContextTabOrangeHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabOrangeHeader.png" />
+    <None Include="res\Office2007Black\ContextTabOrangeHeader.png" />
+    <None Include="res\Office2007Blue\ContextTabOrangeHeader.png" />
+    <None Include="res\Office2007Silver\ContextTabOrangeHeader.png" />
+    <None Include="res\Office2010Black\ContextTabOrangeHeader.png" />
+    <None Include="res\Office2010Blue\ContextTabOrangeHeader.png" />
+    <None Include="res\Office2010Silver\ContextTabOrangeHeader.png" />
+    <None Include="res\Windows7Scenic\ContextTabOrangeHeader.png" />
+    <None Include="res\GAEA2014Black\ContextTabPurple.png" />
+    <None Include="res\Office2007Aqua\ContextTabPurple.png" />
+    <None Include="res\Office2007Black\ContextTabPurple.png" />
+    <None Include="res\Office2007Blue\ContextTabPurple.png" />
+    <None Include="res\Office2007Silver\ContextTabPurple.png" />
+    <None Include="res\Office2010Black\ContextTabPurple.png" />
+    <None Include="res\Office2010Blue\ContextTabPurple.png" />
+    <None Include="res\Office2010Silver\ContextTabPurple.png" />
+    <None Include="res\Windows7Scenic\ContextTabPurple.png" />
+    <None Include="res\GAEA2014Black\ContextTabPurpleBackground.png" />
+    <None Include="res\Office2010Black\ContextTabPurpleBackground.png" />
+    <None Include="res\Office2010Blue\ContextTabPurpleBackground.png" />
+    <None Include="res\Office2010Silver\ContextTabPurpleBackground.png" />
+    <None Include="res\GAEA2014Black\ContextTabPurpleHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabPurpleHeader.png" />
+    <None Include="res\Office2007Black\ContextTabPurpleHeader.png" />
+    <None Include="res\Office2007Blue\ContextTabPurpleHeader.png" />
+    <None Include="res\Office2007Silver\ContextTabPurpleHeader.png" />
+    <None Include="res\Office2010Black\ContextTabPurpleHeader.png" />
+    <None Include="res\Office2010Blue\ContextTabPurpleHeader.png" />
+    <None Include="res\Office2010Silver\ContextTabPurpleHeader.png" />
+    <None Include="res\Windows7Scenic\ContextTabPurpleHeader.png" />
+    <None Include="res\GAEA2014Black\ContextTabRed.png" />
+    <None Include="res\Office2007Aqua\ContextTabRed.png" />
+    <None Include="res\Office2007Black\ContextTabRed.png" />
+    <None Include="res\Office2007Blue\ContextTabRed.png" />
+    <None Include="res\Office2007Silver\ContextTabRed.png" />
+    <None Include="res\Office2010Black\ContextTabRed.png" />
+    <None Include="res\Office2010Blue\ContextTabRed.png" />
+    <None Include="res\Office2010Silver\ContextTabRed.png" />
+    <None Include="res\Windows7Scenic\ContextTabRed.png" />
+    <None Include="res\GAEA2014Black\ContextTabRedBackground.png" />
+    <None Include="res\Office2010Black\ContextTabRedBackground.png" />
+    <None Include="res\Office2010Blue\ContextTabRedBackground.png" />
+    <None Include="res\Office2010Silver\ContextTabRedBackground.png" />
+    <None Include="res\GAEA2014Black\ContextTabRedHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabRedHeader.png" />
+    <None Include="res\Office2007Black\ContextTabRedHeader.png" />
+    <None Include="res\Office2007Blue\ContextTabRedHeader.png" />
+    <None Include="res\Office2007Silver\ContextTabRedHeader.png" />
+    <None Include="res\Office2010Black\ContextTabRedHeader.png" />
+    <None Include="res\Office2010Blue\ContextTabRedHeader.png" />
+    <None Include="res\Office2010Silver\ContextTabRedHeader.png" />
+    <None Include="res\Windows7Scenic\ContextTabRedHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabSeparator.png" />
+    <None Include="res\Office2007Black\ContextTabSeparator.png" />
+    <None Include="res\Office2007Blue\ContextTabSeparator.png" />
+    <None Include="res\Office2007Silver\ContextTabSeparator.png" />
+    <None Include="res\Windows7Scenic\ContextTabSeparator.png" />
+    <None Include="res\GAEA2014Black\ContextTabYellow.png" />
+    <None Include="res\Office2007Aqua\ContextTabYellow.png" />
+    <None Include="res\Office2007Black\ContextTabYellow.png" />
+    <None Include="res\Office2007Blue\ContextTabYellow.png" />
+    <None Include="res\Office2007Silver\ContextTabYellow.png" />
+    <None Include="res\Office2010Black\ContextTabYellow.png" />
+    <None Include="res\Office2010Blue\ContextTabYellow.png" />
+    <None Include="res\Office2010Silver\ContextTabYellow.png" />
+    <None Include="res\Windows7Scenic\ContextTabYellow.png" />
+    <None Include="res\GAEA2014Black\ContextTabYellowBackground.png" />
+    <None Include="res\Office2010Black\ContextTabYellowBackground.png" />
+    <None Include="res\Office2010Blue\ContextTabYellowBackground.png" />
+    <None Include="res\Office2010Silver\ContextTabYellowBackground.png" />
+    <None Include="res\GAEA2014Black\ContextTabYellowHeader.png" />
+    <None Include="res\Office2007Aqua\ContextTabYellowHeader.png" />
+    <None Include="res\Office2007Black\ContextTabYellowHeader.png" />
+    <None Include="res\Office2007Blue\ContextTabYellowHeader.png" />
+    <None Include="res\Office2007Silver\ContextTabYellowHeader.png" />
+    <None Include="res\Office2010Black\ContextTabYellowHeader.png" />
+    <None Include="res\Office2010Blue\ContextTabYellowHeader.png" />
+    <None Include="res\Office2010Silver\ContextTabYellowHeader.png" />
+    <None Include="res\Windows7Scenic\ContextTabYellowHeader.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryDown.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryDown.png" />
+    <None Include="res\Office2007Black\ControlGalleryDown.png" />
+    <None Include="res\Office2007Blue\ControlGalleryDown.png" />
+    <None Include="res\Office2007Silver\ControlGalleryDown.png" />
+    <None Include="res\Office2010Black\ControlGalleryDown.png" />
+    <None Include="res\Office2010Blue\ControlGalleryDown.png" />
+    <None Include="res\Office2010Silver\ControlGalleryDown.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryDown.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryPopup.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryPopup.png" />
+    <None Include="res\Office2007Black\ControlGalleryPopup.png" />
+    <None Include="res\Office2007Blue\ControlGalleryPopup.png" />
+    <None Include="res\Office2007Silver\ControlGalleryPopup.png" />
+    <None Include="res\Office2010Black\ControlGalleryPopup.png" />
+    <None Include="res\Office2010Blue\ControlGalleryPopup.png" />
+    <None Include="res\Office2010Silver\ControlGalleryPopup.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryPopup.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowGlyphs.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowGlyphsDark.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowGlyphsDark.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsHorizontalDark.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsHorizontalLight.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsVerticalDark.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsVerticalLight.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollHorizontalDark.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollHorizontalLight.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbGripperHorizontal.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbGripperVertical.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbHorizontal.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbHorizontalDark.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbHorizontalDark.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbHorizontalDark.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbVertical.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbVerticalDark.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbVerticalDark.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbVerticalDark.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollVerticalDark.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Office2007Black\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Office2007Blue\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Office2007Silver\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Office2010Black\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Office2010Blue\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Office2010Silver\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryScrollVerticalLight.png" />
+    <None Include="res\GAEA2014Black\ControlGalleryUp.png" />
+    <None Include="res\Office2007Aqua\ControlGalleryUp.png" />
+    <None Include="res\Office2007Black\ControlGalleryUp.png" />
+    <None Include="res\Office2007Blue\ControlGalleryUp.png" />
+    <None Include="res\Office2007Silver\ControlGalleryUp.png" />
+    <None Include="res\Office2010Black\ControlGalleryUp.png" />
+    <None Include="res\Office2010Blue\ControlGalleryUp.png" />
+    <None Include="res\Office2010Silver\ControlGalleryUp.png" />
+    <None Include="res\Windows7Scenic\ControlGalleryUp.png" />
+    <None Include="res\GAEA2014Black\FileButton.png" />
+    <None Include="res\Office2007Aqua\FileButton.png" />
+    <None Include="res\Office2007Black\FileButton.png" />
+    <None Include="res\Office2007Blue\FileButton.png" />
+    <None Include="res\Office2007Silver\FileButton.png" />
+    <None Include="res\Office2010Black\FileButton.png" />
+    <None Include="res\Office2010Blue\FileButton.png" />
+    <None Include="res\Office2010Silver\FileButton.png" />
+    <None Include="res\Windows7Scenic\FileButton.png" />
+    <None Include="res\GAEA2014Black\FrameBottomLeft.png" />
+    <None Include="res\Office2007Aqua\FrameBottomLeft.png" />
+    <None Include="res\Office2007Black\FrameBottomLeft.png" />
+    <None Include="res\Office2007Blue\FrameBottomLeft.png" />
+    <None Include="res\Office2007Silver\FrameBottomLeft.png" />
+    <None Include="res\Office2010Black\FrameBottomLeft.png" />
+    <None Include="res\Office2010Blue\FrameBottomLeft.png" />
+    <None Include="res\Office2010Silver\FrameBottomLeft.png" />
+    <None Include="res\Windows7Scenic\FrameBottomLeft.png" />
+    <None Include="res\GAEA2014Black\FrameBottomRight.png" />
+    <None Include="res\Office2007Aqua\FrameBottomRight.png" />
+    <None Include="res\Office2007Black\FrameBottomRight.png" />
+    <None Include="res\Office2007Blue\FrameBottomRight.png" />
+    <None Include="res\Office2007Silver\FrameBottomRight.png" />
+    <None Include="res\Office2010Black\FrameBottomRight.png" />
+    <None Include="res\Office2010Blue\FrameBottomRight.png" />
+    <None Include="res\Office2010Silver\FrameBottomRight.png" />
+    <None Include="res\Windows7Scenic\FrameBottomRight.png" />
+    <None Include="res\GAEA2014Black\FrameSystemButton.png" />
+    <None Include="res\Office2007Aqua\FrameSystemButton.png" />
+    <None Include="res\Office2007Black\FrameSystemButton.png" />
+    <None Include="res\Office2007Blue\FrameSystemButton.png" />
+    <None Include="res\Office2007Silver\FrameSystemButton.png" />
+    <None Include="res\Office2010Black\FrameSystemButton.png" />
+    <None Include="res\Office2010Blue\FrameSystemButton.png" />
+    <None Include="res\Office2010Silver\FrameSystemButton.png" />
+    <None Include="res\Windows7Scenic\FrameSystemButton.png" />
+    <None Include="res\GAEA2014Black\FrameSystemButton52.png" />
+    <None Include="res\Office2007Black\FrameSystemButton52.png" />
+    <None Include="res\Office2007Blue\FrameSystemButton52.png" />
+    <None Include="res\Office2007Silver\FrameSystemButton52.png" />
+    <None Include="res\Office2010Black\FrameSystemButton52.png" />
+    <None Include="res\Office2010Blue\FrameSystemButton52.png" />
+    <None Include="res\Office2010Silver\FrameSystemButton52.png" />
+    <None Include="res\Windows7Scenic\FrameSystemButton52.png" />
+    <None Include="res\GAEA2014Black\FrameTitleButton.png" />
+    <None Include="res\Office2007Aqua\FrameTitleButton.png" />
+    <None Include="res\Office2007Black\FrameTitleButton.png" />
+    <None Include="res\Office2007Blue\FrameTitleButton.png" />
+    <None Include="res\Office2007Silver\FrameTitleButton.png" />
+    <None Include="res\Office2010Black\FrameTitleButton.png" />
+    <None Include="res\Office2010Blue\FrameTitleButton.png" />
+    <None Include="res\Office2010Silver\FrameTitleButton.png" />
+    <None Include="res\Windows7Scenic\FrameTitleButton.png" />
+    <None Include="res\GAEA2014Black\FrameTitleClose13.png" />
+    <None Include="res\Office2007Aqua\FrameTitleClose13.png" />
+    <None Include="res\Office2007Black\FrameTitleClose13.png" />
+    <None Include="res\Office2007Blue\FrameTitleClose13.png" />
+    <None Include="res\Office2007Silver\FrameTitleClose13.png" />
+    <None Include="res\Office2010Black\FrameTitleClose13.png" />
+    <None Include="res\Office2010Blue\FrameTitleClose13.png" />
+    <None Include="res\Office2010Silver\FrameTitleClose13.png" />
+    <None Include="res\Windows7Scenic\FrameTitleClose13.png" />
+    <None Include="res\GAEA2014Black\FrameTitleClose17.png" />
+    <None Include="res\Office2007Aqua\FrameTitleClose17.png" />
+    <None Include="res\Office2007Black\FrameTitleClose17.png" />
+    <None Include="res\Office2007Blue\FrameTitleClose17.png" />
+    <None Include="res\Office2007Silver\FrameTitleClose17.png" />
+    <None Include="res\Office2010Black\FrameTitleClose17.png" />
+    <None Include="res\Office2010Blue\FrameTitleClose17.png" />
+    <None Include="res\Office2010Silver\FrameTitleClose17.png" />
+    <None Include="res\Windows7Scenic\FrameTitleClose17.png" />
+    <None Include="res\GAEA2014Black\FrameTitleClose23.png" />
+    <None Include="res\Office2007Aqua\FrameTitleClose23.png" />
+    <None Include="res\Office2007Black\FrameTitleClose23.png" />
+    <None Include="res\Office2007Blue\FrameTitleClose23.png" />
+    <None Include="res\Office2007Silver\FrameTitleClose23.png" />
+    <None Include="res\Office2010Black\FrameTitleClose23.png" />
+    <None Include="res\Office2010Blue\FrameTitleClose23.png" />
+    <None Include="res\Office2010Silver\FrameTitleClose23.png" />
+    <None Include="res\Windows7Scenic\FrameTitleClose23.png" />
+    <None Include="res\GAEA2014Black\FrameTitleCloseButton.png" />
+    <None Include="res\Office2010Black\FrameTitleCloseButton.png" />
+    <None Include="res\Office2010Blue\FrameTitleCloseButton.png" />
+    <None Include="res\Office2010Silver\FrameTitleCloseButton.png" />
+    <None Include="res\GAEA2014Black\FrameTitleMaximize13.png" />
+    <None Include="res\Office2007Aqua\FrameTitleMaximize13.png" />
+    <None Include="res\Office2007Black\FrameTitleMaximize13.png" />
+    <None Include="res\Office2007Blue\FrameTitleMaximize13.png" />
+    <None Include="res\Office2007Silver\FrameTitleMaximize13.png" />
+    <None Include="res\Office2010Black\FrameTitleMaximize13.png" />
+    <None Include="res\Office2010Blue\FrameTitleMaximize13.png" />
+    <None Include="res\Office2010Silver\FrameTitleMaximize13.png" />
+    <None Include="res\Windows7Scenic\FrameTitleMaximize13.png" />
+    <None Include="res\GAEA2014Black\FrameTitleMaximize17.png" />
+    <None Include="res\Office2007Aqua\FrameTitleMaximize17.png" />
+    <None Include="res\Office2007Black\FrameTitleMaximize17.png" />
+    <None Include="res\Office2007Blue\FrameTitleMaximize17.png" />
+    <None Include="res\Office2007Silver\FrameTitleMaximize17.png" />
+    <None Include="res\Office2010Black\FrameTitleMaximize17.png" />
+    <None Include="res\Office2010Blue\FrameTitleMaximize17.png" />
+    <None Include="res\Office2010Silver\FrameTitleMaximize17.png" />
+    <None Include="res\Windows7Scenic\FrameTitleMaximize17.png" />
+    <None Include="res\GAEA2014Black\FrameTitleMaximize23.png" />
+    <None Include="res\Office2007Aqua\FrameTitleMaximize23.png" />
+    <None Include="res\Office2007Black\FrameTitleMaximize23.png" />
+    <None Include="res\Office2007Blue\FrameTitleMaximize23.png" />
+    <None Include="res\Office2007Silver\FrameTitleMaximize23.png" />
+    <None Include="res\Office2010Black\FrameTitleMaximize23.png" />
+    <None Include="res\Office2010Blue\FrameTitleMaximize23.png" />
+    <None Include="res\Office2010Silver\FrameTitleMaximize23.png" />
+    <None Include="res\Windows7Scenic\FrameTitleMaximize23.png" />
+    <None Include="res\GAEA2014Black\FrameTitleMinimize13.png" />
+    <None Include="res\Office2007Aqua\FrameTitleMinimize13.png" />
+    <None Include="res\Office2007Black\FrameTitleMinimize13.png" />
+    <None Include="res\Office2007Blue\FrameTitleMinimize13.png" />
+    <None Include="res\Office2007Silver\FrameTitleMinimize13.png" />
+    <None Include="res\Office2010Black\FrameTitleMinimize13.png" />
+    <None Include="res\Office2010Blue\FrameTitleMinimize13.png" />
+    <None Include="res\Office2010Silver\FrameTitleMinimize13.png" />
+    <None Include="res\Windows7Scenic\FrameTitleMinimize13.png" />
+    <None Include="res\GAEA2014Black\FrameTitleMinimize17.png" />
+    <None Include="res\Office2007Aqua\FrameTitleMinimize17.png" />
+    <None Include="res\Office2007Black\FrameTitleMinimize17.png" />
+    <None Include="res\Office2007Blue\FrameTitleMinimize17.png" />
+    <None Include="res\Office2007Silver\FrameTitleMinimize17.png" />
+    <None Include="res\Office2010Black\FrameTitleMinimize17.png" />
+    <None Include="res\Office2010Blue\FrameTitleMinimize17.png" />
+    <None Include="res\Office2010Silver\FrameTitleMinimize17.png" />
+    <None Include="res\Windows7Scenic\FrameTitleMinimize17.png" />
+    <None Include="res\GAEA2014Black\FrameTitleMinimize23.png" />
+    <None Include="res\Office2007Aqua\FrameTitleMinimize23.png" />
+    <None Include="res\Office2007Black\FrameTitleMinimize23.png" />
+    <None Include="res\Office2007Blue\FrameTitleMinimize23.png" />
+    <None Include="res\Office2007Silver\FrameTitleMinimize23.png" />
+    <None Include="res\Office2010Black\FrameTitleMinimize23.png" />
+    <None Include="res\Office2010Blue\FrameTitleMinimize23.png" />
+    <None Include="res\Office2010Silver\FrameTitleMinimize23.png" />
+    <None Include="res\Windows7Scenic\FrameTitleMinimize23.png" />
+    <None Include="res\GAEA2014Black\FrameTitleRestore13.png" />
+    <None Include="res\Office2007Aqua\FrameTitleRestore13.png" />
+    <None Include="res\Office2007Black\FrameTitleRestore13.png" />
+    <None Include="res\Office2007Blue\FrameTitleRestore13.png" />
+    <None Include="res\Office2007Silver\FrameTitleRestore13.png" />
+    <None Include="res\Office2010Black\FrameTitleRestore13.png" />
+    <None Include="res\Office2010Blue\FrameTitleRestore13.png" />
+    <None Include="res\Office2010Silver\FrameTitleRestore13.png" />
+    <None Include="res\Windows7Scenic\FrameTitleRestore13.png" />
+    <None Include="res\GAEA2014Black\FrameTitleRestore17.png" />
+    <None Include="res\Office2007Aqua\FrameTitleRestore17.png" />
+    <None Include="res\Office2007Black\FrameTitleRestore17.png" />
+    <None Include="res\Office2007Blue\FrameTitleRestore17.png" />
+    <None Include="res\Office2007Silver\FrameTitleRestore17.png" />
+    <None Include="res\Office2010Black\FrameTitleRestore17.png" />
+    <None Include="res\Office2010Blue\FrameTitleRestore17.png" />
+    <None Include="res\Office2010Silver\FrameTitleRestore17.png" />
+    <None Include="res\Windows7Scenic\FrameTitleRestore17.png" />
+    <None Include="res\GAEA2014Black\FrameTitleRestore23.png" />
+    <None Include="res\Office2007Aqua\FrameTitleRestore23.png" />
+    <None Include="res\Office2007Black\FrameTitleRestore23.png" />
+    <None Include="res\Office2007Blue\FrameTitleRestore23.png" />
+    <None Include="res\Office2007Silver\FrameTitleRestore23.png" />
+    <None Include="res\Office2010Black\FrameTitleRestore23.png" />
+    <None Include="res\Office2010Blue\FrameTitleRestore23.png" />
+    <None Include="res\Office2010Silver\FrameTitleRestore23.png" />
+    <None Include="res\Windows7Scenic\FrameTitleRestore23.png" />
+    <None Include="res\GAEA2014Black\FrameTopCenter.png" />
+    <None Include="res\Office2007Aqua\FrameTopCenter.png" />
+    <None Include="res\Office2007Black\FrameTopCenter.png" />
+    <None Include="res\Office2007Blue\FrameTopCenter.png" />
+    <None Include="res\Office2007Silver\FrameTopCenter.png" />
+    <None Include="res\Office2010Black\FrameTopCenter.png" />
+    <None Include="res\Office2010Blue\FrameTopCenter.png" />
+    <None Include="res\Office2010Silver\FrameTopCenter.png" />
+    <None Include="res\Windows7Scenic\FrameTopCenter.png" />
+    <None Include="res\GAEA2014Black\FrameTopLeft.png" />
+    <None Include="res\Office2007Aqua\FrameTopLeft.png" />
+    <None Include="res\Office2007Black\FrameTopLeft.png" />
+    <None Include="res\Office2007Blue\FrameTopLeft.png" />
+    <None Include="res\Office2007Silver\FrameTopLeft.png" />
+    <None Include="res\Office2010Black\FrameTopLeft.png" />
+    <None Include="res\Office2010Blue\FrameTopLeft.png" />
+    <None Include="res\Office2010Silver\FrameTopLeft.png" />
+    <None Include="res\Windows7Scenic\FrameTopLeft.png" />
+    <None Include="res\GAEA2014Black\FrameTopRight.png" />
+    <None Include="res\Office2007Aqua\FrameTopRight.png" />
+    <None Include="res\Office2007Black\FrameTopRight.png" />
+    <None Include="res\Office2007Blue\FrameTopRight.png" />
+    <None Include="res\Office2007Silver\FrameTopRight.png" />
+    <None Include="res\Office2010Black\FrameTopRight.png" />
+    <None Include="res\Office2010Blue\FrameTopRight.png" />
+    <None Include="res\Office2010Silver\FrameTopRight.png" />
+    <None Include="res\Windows7Scenic\FrameTopRight.png" />
+    <None Include="res\GAEA2014Black\ListBox.png" />
+    <None Include="res\Office2007Aqua\ListBox.png" />
+    <None Include="res\Office2007Black\ListBox.png" />
+    <None Include="res\Office2007Blue\ListBox.png" />
+    <None Include="res\Office2007Silver\ListBox.png" />
+    <None Include="res\Office2010Black\ListBox.png" />
+    <None Include="res\Office2010Blue\ListBox.png" />
+    <None Include="res\Office2010Silver\ListBox.png" />
+    <None Include="res\Windows7Scenic\ListBox.png" />
+    <None Include="res\GAEA2014Black\MenuCheckedItem.png" />
+    <None Include="res\Office2007Aqua\MenuCheckedItem.png" />
+    <None Include="res\Office2007Black\MenuCheckedItem.png" />
+    <None Include="res\Office2007Blue\MenuCheckedItem.png" />
+    <None Include="res\Office2007Silver\MenuCheckedItem.png" />
+    <None Include="res\Office2010Black\MenuCheckedItem.png" />
+    <None Include="res\Office2010Blue\MenuCheckedItem.png" />
+    <None Include="res\Office2010Silver\MenuCheckedItem.png" />
+    <None Include="res\Windows7Scenic\MenuCheckedItem.png" />
+    <None Include="res\GAEA2014Black\MenuCheckedItemMark.png" />
+    <None Include="res\Office2007Aqua\MenuCheckedItemMark.png" />
+    <None Include="res\Office2007Black\MenuCheckedItemMark.png" />
+    <None Include="res\Office2007Blue\MenuCheckedItemMark.png" />
+    <None Include="res\Office2007Silver\MenuCheckedItemMark.png" />
+    <None Include="res\Office2010Black\MenuCheckedItemMark.png" />
+    <None Include="res\Office2010Blue\MenuCheckedItemMark.png" />
+    <None Include="res\Office2010Silver\MenuCheckedItemMark.png" />
+    <None Include="res\Windows7Scenic\MenuCheckedItemMark.png" />
+    <None Include="res\GAEA2014Black\MenuPopupGlyph.png" />
+    <None Include="res\Office2007Aqua\MenuPopupGlyph.png" />
+    <None Include="res\Office2007Black\MenuPopupGlyph.png" />
+    <None Include="res\Office2007Blue\MenuPopupGlyph.png" />
+    <None Include="res\Office2007Silver\MenuPopupGlyph.png" />
+    <None Include="res\Office2010Black\MenuPopupGlyph.png" />
+    <None Include="res\Office2010Blue\MenuPopupGlyph.png" />
+    <None Include="res\Office2010Silver\MenuPopupGlyph.png" />
+    <None Include="res\Windows7Scenic\MenuPopupGlyph.png" />
+    <None Include="res\GAEA2014Black\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Office2007Aqua\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Office2007Black\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Office2007Blue\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Office2007Silver\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Office2010Black\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Office2010Blue\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Office2010Silver\MenuSelectedDisabledItem22.png" />
+    <None Include="res\Windows7Scenic\MenuSelectedDisabledItem22.png" />
+    <None Include="res\GAEA2014Black\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Office2007Aqua\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Office2007Black\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Office2007Blue\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Office2007Silver\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Office2010Black\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Office2010Blue\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Office2010Silver\MenuSelectedDisabledItem54.png" />
+    <None Include="res\Windows7Scenic\MenuSelectedDisabledItem54.png" />
+    <None Include="res\GAEA2014Black\MenuSelectedItem22.png" />
+    <None Include="res\Office2007Aqua\MenuSelectedItem22.png" />
+    <None Include="res\Office2007Black\MenuSelectedItem22.png" />
+    <None Include="res\Office2007Blue\MenuSelectedItem22.png" />
+    <None Include="res\Office2007Silver\MenuSelectedItem22.png" />
+    <None Include="res\Office2010Black\MenuSelectedItem22.png" />
+    <None Include="res\Office2010Blue\MenuSelectedItem22.png" />
+    <None Include="res\Office2010Silver\MenuSelectedItem22.png" />
+    <None Include="res\Windows7Scenic\MenuSelectedItem22.png" />
+    <None Include="res\GAEA2014Black\MenuSelectedItem54.png" />
+    <None Include="res\Office2007Aqua\MenuSelectedItem54.png" />
+    <None Include="res\Office2007Black\MenuSelectedItem54.png" />
+    <None Include="res\Office2007Blue\MenuSelectedItem54.png" />
+    <None Include="res\Office2007Silver\MenuSelectedItem54.png" />
+    <None Include="res\Office2010Black\MenuSelectedItem54.png" />
+    <None Include="res\Office2010Blue\MenuSelectedItem54.png" />
+    <None Include="res\Office2010Silver\MenuSelectedItem54.png" />
+    <None Include="res\Windows7Scenic\MenuSelectedItem54.png" />
+    <None Include="res\GAEA2014Black\MenuSplitDropDown.png" />
+    <None Include="res\Office2007Aqua\MenuSplitDropDown.png" />
+    <None Include="res\Office2007Black\MenuSplitDropDown.png" />
+    <None Include="res\Office2007Blue\MenuSplitDropDown.png" />
+    <None Include="res\Office2007Silver\MenuSplitDropDown.png" />
+    <None Include="res\Office2010Black\MenuSplitDropDown.png" />
+    <None Include="res\Office2010Blue\MenuSplitDropDown.png" />
+    <None Include="res\Office2010Silver\MenuSplitDropDown.png" />
+    <None Include="res\Windows7Scenic\MenuSplitDropDown.png" />
+    <None Include="res\GAEA2014Black\MenuSplitItem.png" />
+    <None Include="res\Office2007Black\MenuSplitItem.png" />
+    <None Include="res\Office2007Blue\MenuSplitItem.png" />
+    <None Include="res\Office2007Silver\MenuSplitItem.png" />
+    <None Include="res\Office2010Black\MenuSplitItem.png" />
+    <None Include="res\Office2010Blue\MenuSplitItem.png" />
+    <None Include="res\Office2010Silver\MenuSplitItem.png" />
+    <None Include="res\Windows7Scenic\MenuSplitItem.png" />
+    <None Include="res\GAEA2014Black\OfficeTheme.ini" />
+    <None Include="res\Office2007Aqua\OfficeTheme.ini" />
+    <None Include="res\Office2007Black\OfficeTheme.ini" />
+    <None Include="res\Office2007Blue\OfficeTheme.ini" />
+    <None Include="res\Office2007Silver\OfficeTheme.ini" />
+    <None Include="res\Office2010Black\OfficeTheme.ini" />
+    <None Include="res\Office2010Blue\OfficeTheme.ini" />
+    <None Include="res\Office2010Silver\OfficeTheme.ini" />
+    <None Include="res\Windows7Scenic\OfficeTheme.ini" />
+    <None Include="res\GAEA2014Black\PopupBarFrame.png" />
+    <None Include="res\Office2007Aqua\PopupBarFrame.png" />
+    <None Include="res\Office2007Black\PopupBarFrame.png" />
+    <None Include="res\Office2007Blue\PopupBarFrame.png" />
+    <None Include="res\Office2007Silver\PopupBarFrame.png" />
+    <None Include="res\Office2010Black\PopupBarFrame.png" />
+    <None Include="res\Office2010Blue\PopupBarFrame.png" />
+    <None Include="res\Office2010Silver\PopupBarFrame.png" />
+    <None Include="res\Windows7Scenic\PopupBarFrame.png" />
+    <None Include="res\GAEA2014Black\PopupBarResizeGripperFace.png" />
+    <None Include="res\Office2007Aqua\PopupBarResizeGripperFace.png" />
+    <None Include="res\Office2007Black\PopupBarResizeGripperFace.png" />
+    <None Include="res\Office2007Blue\PopupBarResizeGripperFace.png" />
+    <None Include="res\Office2007Silver\PopupBarResizeGripperFace.png" />
+    <None Include="res\Office2010Black\PopupBarResizeGripperFace.png" />
+    <None Include="res\Office2010Blue\PopupBarResizeGripperFace.png" />
+    <None Include="res\Office2010Silver\PopupBarResizeGripperFace.png" />
+    <None Include="res\Windows7Scenic\PopupBarResizeGripperFace.png" />
+    <None Include="res\GAEA2014Black\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Office2007Aqua\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Office2007Black\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Office2007Blue\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Office2007Silver\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Office2010Black\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Office2010Blue\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Office2010Silver\PopupBarResizeGripperWidth.png" />
+    <None Include="res\Windows7Scenic\PopupBarResizeGripperWidth.png" />
+    <None Include="res\GAEA2014Black\PushButton.png" />
+    <None Include="res\Office2007Aqua\PushButton.png" />
+    <None Include="res\Office2007Black\PushButton.png" />
+    <None Include="res\Office2007Blue\PushButton.png" />
+    <None Include="res\Office2007Silver\PushButton.png" />
+    <None Include="res\Office2010Black\PushButton.png" />
+    <None Include="res\Office2010Blue\PushButton.png" />
+    <None Include="res\Office2010Silver\PushButton.png" />
+    <None Include="res\Windows7Scenic\PushButton.png" />
+    <QtRcc Include="src\ribbon\QtnRibbonResources.qrc">
+    </QtRcc>
+    <None Include="res\GAEA2014Black\RibbonGroupButton.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupButton.png" />
+    <None Include="res\Office2007Black\RibbonGroupButton.png" />
+    <None Include="res\Office2007Blue\RibbonGroupButton.png" />
+    <None Include="res\Office2007Silver\RibbonGroupButton.png" />
+    <None Include="res\Office2010Black\RibbonGroupButton.png" />
+    <None Include="res\Office2010Blue\RibbonGroupButton.png" />
+    <None Include="res\Office2010Silver\RibbonGroupButton.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupButton.png" />
+    <None Include="res\GAEA2014Black\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2007Black\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2007Blue\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2007Silver\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2010Black\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2010Blue\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2010Silver\RibbonGroupButtonIcon.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupButtonIcon.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupCaption.png" />
+    <None Include="res\Office2007Black\RibbonGroupCaption.png" />
+    <None Include="res\Office2007Blue\RibbonGroupCaption.png" />
+    <None Include="res\Office2007Silver\RibbonGroupCaption.png" />
+    <None Include="res\GAEA2014Black\RibbonGroupClient.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupClient.png" />
+    <None Include="res\Office2007Black\RibbonGroupClient.png" />
+    <None Include="res\Office2007Blue\RibbonGroupClient.png" />
+    <None Include="res\Office2007Silver\RibbonGroupClient.png" />
+    <None Include="res\Office2010Black\RibbonGroupClient.png" />
+    <None Include="res\Office2010Blue\RibbonGroupClient.png" />
+    <None Include="res\Office2010Silver\RibbonGroupClient.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupClient.png" />
+    <None Include="res\GAEA2014Black\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Office2007Black\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Office2007Blue\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Office2007Silver\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Office2010Black\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Office2010Blue\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Office2010Silver\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupScrollButtonLeft.png" />
+    <None Include="res\GAEA2014Black\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Office2007Black\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Office2007Blue\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Office2007Silver\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Office2010Black\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Office2010Blue\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Office2010Silver\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupScrollButtonRight.png" />
+    <None Include="res\GAEA2014Black\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Office2007Black\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Office2007Blue\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Office2007Silver\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Office2010Black\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Office2010Blue\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Office2010Silver\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupScrollLeftGlyph.png" />
+    <None Include="res\GAEA2014Black\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Office2007Aqua\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Office2007Black\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Office2007Blue\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Office2007Silver\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Office2010Black\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Office2010Blue\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Office2010Silver\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupScrollRightGlyph.png" />
+    <None Include="res\Windows7Scenic\RibbonGroupSeparator.png" />
+    <None Include="res\GAEA2014Black\RibbonGroups.png" />
+    <None Include="res\Office2007Aqua\RibbonGroups.png" />
+    <None Include="res\Office2007Black\RibbonGroups.png" />
+    <None Include="res\Office2007Blue\RibbonGroups.png" />
+    <None Include="res\Office2007Silver\RibbonGroups.png" />
+    <None Include="res\Office2010Black\RibbonGroups.png" />
+    <None Include="res\Office2010Blue\RibbonGroups.png" />
+    <None Include="res\Office2010Silver\RibbonGroups.png" />
+    <None Include="res\Windows7Scenic\RibbonGroups.png" />
+    <None Include="res\GAEA2014Black\RibbonOptionButton.png" />
+    <None Include="res\Office2007Aqua\RibbonOptionButton.png" />
+    <None Include="res\Office2007Black\RibbonOptionButton.png" />
+    <None Include="res\Office2007Blue\RibbonOptionButton.png" />
+    <None Include="res\Office2007Silver\RibbonOptionButton.png" />
+    <None Include="res\Office2010Black\RibbonOptionButton.png" />
+    <None Include="res\Office2010Blue\RibbonOptionButton.png" />
+    <None Include="res\Office2010Silver\RibbonOptionButton.png" />
+    <None Include="res\Windows7Scenic\RibbonOptionButton.png" />
+    <None Include="res\Office2007Aqua\RibbonQuickAccessArea.png" />
+    <None Include="res\Office2007Black\RibbonQuickAccessArea.png" />
+    <None Include="res\Office2007Blue\RibbonQuickAccessArea.png" />
+    <None Include="res\Office2007Silver\RibbonQuickAccessArea.png" />
+    <None Include="res\Windows7Scenic\RibbonQuickAccessArea.png" />
+    <None Include="res\Office2007Aqua\RibbonQuickAccessAreaDwm.png" />
+    <None Include="res\Office2007Black\RibbonQuickAccessAreaDwm.png" />
+    <None Include="res\Office2007Blue\RibbonQuickAccessAreaDwm.png" />
+    <None Include="res\Office2007Silver\RibbonQuickAccessAreaDwm.png" />
+    <None Include="res\Windows7Scenic\RibbonQuickAccessAreaDwm.png" />
+    <None Include="res\GAEA2014Black\RibbonQuickAccessButton.png" />
+    <None Include="res\Office2007Aqua\RibbonQuickAccessButton.png" />
+    <None Include="res\Office2007Black\RibbonQuickAccessButton.png" />
+    <None Include="res\Office2007Blue\RibbonQuickAccessButton.png" />
+    <None Include="res\Office2007Silver\RibbonQuickAccessButton.png" />
+    <None Include="res\Office2010Black\RibbonQuickAccessButton.png" />
+    <None Include="res\Office2010Blue\RibbonQuickAccessButton.png" />
+    <None Include="res\Office2010Silver\RibbonQuickAccessButton.png" />
+    <None Include="res\Windows7Scenic\RibbonQuickAccessButton.png" />
+    <None Include="res\GAEA2014Black\RibbonSystemMenu.png" />
+    <None Include="res\Office2007Aqua\RibbonSystemMenu.png" />
+    <None Include="res\Office2007Black\RibbonSystemMenu.png" />
+    <None Include="res\Office2007Blue\RibbonSystemMenu.png" />
+    <None Include="res\Office2007Silver\RibbonSystemMenu.png" />
+    <None Include="res\Office2010Black\RibbonSystemMenu.png" />
+    <None Include="res\Office2010Blue\RibbonSystemMenu.png" />
+    <None Include="res\Office2010Silver\RibbonSystemMenu.png" />
+    <None Include="res\Windows7Scenic\RibbonSystemMenu.png" />
+    <None Include="res\GAEA2014Black\RibbonSystemMenuButton.png" />
+    <None Include="res\Office2007Aqua\RibbonSystemMenuButton.png" />
+    <None Include="res\Office2007Black\RibbonSystemMenuButton.png" />
+    <None Include="res\Office2007Blue\RibbonSystemMenuButton.png" />
+    <None Include="res\Office2007Silver\RibbonSystemMenuButton.png" />
+    <None Include="res\Office2010Black\RibbonSystemMenuButton.png" />
+    <None Include="res\Office2010Blue\RibbonSystemMenuButton.png" />
+    <None Include="res\Office2010Silver\RibbonSystemMenuButton.png" />
+    <None Include="res\Windows7Scenic\RibbonSystemMenuButton.png" />
+    <None Include="res\GAEA2014Black\RibbonTab.png" />
+    <None Include="res\Office2007Aqua\RibbonTab.png" />
+    <None Include="res\Office2007Black\RibbonTab.png" />
+    <None Include="res\Office2007Blue\RibbonTab.png" />
+    <None Include="res\Office2007Silver\RibbonTab.png" />
+    <None Include="res\Office2010Black\RibbonTab.png" />
+    <None Include="res\Office2010Blue\RibbonTab.png" />
+    <None Include="res\Office2010Silver\RibbonTab.png" />
+    <None Include="res\Windows7Scenic\RibbonTab.png" />
+    <None Include="res\GAEA2014Black\RibbonTabBackgroundDwm.png" />
+    <None Include="res\Office2010Black\RibbonTabBackgroundDwm.png" />
+    <None Include="res\Office2010Blue\RibbonTabBackgroundDwm.png" />
+    <None Include="res\Office2010Silver\RibbonTabBackgroundDwm.png" />
+    <None Include="res\GAEA2014Black\ShortcutBarItems.png" />
+    <None Include="res\Office2007Aqua\ShortcutBarItems.png" />
+    <None Include="res\Office2007Black\ShortcutBarItems.png" />
+    <None Include="res\Office2007Blue\ShortcutBarItems.png" />
+    <None Include="res\Office2007Silver\ShortcutBarItems.png" />
+    <None Include="res\Office2010Black\ShortcutBarItems.png" />
+    <None Include="res\Office2010Blue\ShortcutBarItems.png" />
+    <None Include="res\Office2010Silver\ShortcutBarItems.png" />
+    <None Include="res\Windows7Scenic\ShortcutBarItems.png" />
+    <None Include="res\GAEA2014Black\SliderDown.png" />
+    <None Include="res\Office2007Aqua\SliderDown.png" />
+    <None Include="res\Office2007Black\SliderDown.png" />
+    <None Include="res\Office2007Blue\SliderDown.png" />
+    <None Include="res\Office2007Silver\SliderDown.png" />
+    <None Include="res\Office2010Black\SliderDown.png" />
+    <None Include="res\Office2010Blue\SliderDown.png" />
+    <None Include="res\Office2010Silver\SliderDown.png" />
+    <None Include="res\Windows7Scenic\SliderDown.png" />
+    <None Include="res\GAEA2014Black\SliderThumb.png" />
+    <None Include="res\Office2007Aqua\SliderThumb.png" />
+    <None Include="res\Office2007Black\SliderThumb.png" />
+    <None Include="res\Office2007Blue\SliderThumb.png" />
+    <None Include="res\Office2007Silver\SliderThumb.png" />
+    <None Include="res\Office2010Black\SliderThumb.png" />
+    <None Include="res\Office2010Blue\SliderThumb.png" />
+    <None Include="res\Office2010Silver\SliderThumb.png" />
+    <None Include="res\Windows7Scenic\SliderThumb.png" />
+    <None Include="res\GAEA2014Black\SliderTick.png" />
+    <None Include="res\Office2007Aqua\SliderTick.png" />
+    <None Include="res\Office2007Black\SliderTick.png" />
+    <None Include="res\Office2007Blue\SliderTick.png" />
+    <None Include="res\Office2007Silver\SliderTick.png" />
+    <None Include="res\Office2010Black\SliderTick.png" />
+    <None Include="res\Office2010Blue\SliderTick.png" />
+    <None Include="res\Office2010Silver\SliderTick.png" />
+    <None Include="res\Windows7Scenic\SliderTick.png" />
+    <None Include="res\GAEA2014Black\SliderTrack.png" />
+    <None Include="res\Office2007Aqua\SliderTrack.png" />
+    <None Include="res\Office2007Black\SliderTrack.png" />
+    <None Include="res\Office2007Blue\SliderTrack.png" />
+    <None Include="res\Office2007Silver\SliderTrack.png" />
+    <None Include="res\Office2010Black\SliderTrack.png" />
+    <None Include="res\Office2010Blue\SliderTrack.png" />
+    <None Include="res\Office2010Silver\SliderTrack.png" />
+    <None Include="res\Windows7Scenic\SliderTrack.png" />
+    <None Include="res\GAEA2014Black\SliderUp.png" />
+    <None Include="res\Office2007Aqua\SliderUp.png" />
+    <None Include="res\Office2007Black\SliderUp.png" />
+    <None Include="res\Office2007Blue\SliderUp.png" />
+    <None Include="res\Office2007Silver\SliderUp.png" />
+    <None Include="res\Office2010Black\SliderUp.png" />
+    <None Include="res\Office2010Blue\SliderUp.png" />
+    <None Include="res\Office2010Silver\SliderUp.png" />
+    <None Include="res\Windows7Scenic\SliderUp.png" />
+    <None Include="res\GAEA2014Black\StatusBarDark.png" />
+    <None Include="res\Office2007Aqua\StatusBarDark.png" />
+    <None Include="res\Office2007Black\StatusBarDark.png" />
+    <None Include="res\Office2007Blue\StatusBarDark.png" />
+    <None Include="res\Office2007Silver\StatusBarDark.png" />
+    <None Include="res\Office2010Black\StatusBarDark.png" />
+    <None Include="res\Office2010Blue\StatusBarDark.png" />
+    <None Include="res\Office2010Silver\StatusBarDark.png" />
+    <None Include="res\Windows7Scenic\StatusBarDark.png" />
+    <None Include="res\GAEA2014Black\StatusBarDevider.png" />
+    <None Include="res\Office2007Aqua\StatusBarDevider.png" />
+    <None Include="res\Office2007Black\StatusBarDevider.png" />
+    <None Include="res\Office2007Blue\StatusBarDevider.png" />
+    <None Include="res\Office2007Silver\StatusBarDevider.png" />
+    <None Include="res\Office2010Black\StatusBarDevider.png" />
+    <None Include="res\Office2010Blue\StatusBarDevider.png" />
+    <None Include="res\Office2010Silver\StatusBarDevider.png" />
+    <None Include="res\Windows7Scenic\StatusBarDevider.png" />
+    <None Include="res\GAEA2014Black\StatusBarGripper.png" />
+    <None Include="res\Office2007Aqua\StatusBarGripper.png" />
+    <None Include="res\Office2007Black\StatusBarGripper.png" />
+    <None Include="res\Office2007Blue\StatusBarGripper.png" />
+    <None Include="res\Office2007Silver\StatusBarGripper.png" />
+    <None Include="res\Office2010Black\StatusBarGripper.png" />
+    <None Include="res\Office2010Blue\StatusBarGripper.png" />
+    <None Include="res\Office2010Silver\StatusBarGripper.png" />
+    <None Include="res\Windows7Scenic\StatusBarGripper.png" />
+    <None Include="res\GAEA2014Black\StatusBarLight.png" />
+    <None Include="res\Office2007Aqua\StatusBarLight.png" />
+    <None Include="res\Office2007Black\StatusBarLight.png" />
+    <None Include="res\Office2007Blue\StatusBarLight.png" />
+    <None Include="res\Office2007Silver\StatusBarLight.png" />
+    <None Include="res\Office2010Black\StatusBarLight.png" />
+    <None Include="res\Office2010Blue\StatusBarLight.png" />
+    <None Include="res\Office2010Silver\StatusBarLight.png" />
+    <None Include="res\Windows7Scenic\StatusBarLight.png" />
+    <None Include="res\GAEA2014Black\StatusBarSeparator.png" />
+    <None Include="res\Office2007Aqua\StatusBarSeparator.png" />
+    <None Include="res\Office2007Black\StatusBarSeparator.png" />
+    <None Include="res\Office2007Blue\StatusBarSeparator.png" />
+    <None Include="res\Office2007Silver\StatusBarSeparator.png" />
+    <None Include="res\Office2010Black\StatusBarSeparator.png" />
+    <None Include="res\Office2010Blue\StatusBarSeparator.png" />
+    <None Include="res\Office2010Silver\StatusBarSeparator.png" />
+    <None Include="res\Windows7Scenic\StatusBarSeparator.png" />
+    <None Include="res\Office2007Aqua\StatusBarSwitchGroup.png" />
+    <None Include="res\Office2007Black\StatusBarSwitchGroup.png" />
+    <None Include="res\Office2007Blue\StatusBarSwitchGroup.png" />
+    <None Include="res\Office2007Silver\StatusBarSwitchGroup.png" />
+    <None Include="res\Windows7Scenic\StatusBarSwitchGroup.png" />
+    <None Include="res\GAEA2014Black\SystemIconSeparator.png" />
+    <None Include="res\Office2010Black\SystemIconSeparator.png" />
+    <None Include="res\Office2010Blue\SystemIconSeparator.png" />
+    <None Include="res\Office2010Silver\SystemIconSeparator.png" />
+    <None Include="res\Windows7Scenic\SystemIconSeparator.png" />
+    <None Include="res\GAEA2014Black\TabItemTop.png" />
+    <None Include="res\Office2007Aqua\TabItemTop.png" />
+    <None Include="res\Office2007Black\TabItemTop.png" />
+    <None Include="res\Office2007Blue\TabItemTop.png" />
+    <None Include="res\Office2007Silver\TabItemTop.png" />
+    <None Include="res\Office2010Black\TabItemTop.png" />
+    <None Include="res\Office2010Blue\TabItemTop.png" />
+    <None Include="res\Office2010Silver\TabItemTop.png" />
+    <None Include="res\Windows7Scenic\TabItemTop.png" />
+    <None Include="res\GAEA2014Black\TabItemTopLeft.png" />
+    <None Include="res\Office2007Aqua\TabItemTopLeft.png" />
+    <None Include="res\Office2007Black\TabItemTopLeft.png" />
+    <None Include="res\Office2007Blue\TabItemTopLeft.png" />
+    <None Include="res\Office2007Silver\TabItemTopLeft.png" />
+    <None Include="res\Office2010Black\TabItemTopLeft.png" />
+    <None Include="res\Office2010Blue\TabItemTopLeft.png" />
+    <None Include="res\Office2010Silver\TabItemTopLeft.png" />
+    <None Include="res\Windows7Scenic\TabItemTopLeft.png" />
+    <None Include="res\GAEA2014Black\TabPaneEdge.png" />
+    <None Include="res\Office2007Aqua\TabPaneEdge.png" />
+    <None Include="res\Office2007Black\TabPaneEdge.png" />
+    <None Include="res\Office2007Blue\TabPaneEdge.png" />
+    <None Include="res\Office2007Silver\TabPaneEdge.png" />
+    <None Include="res\Office2010Black\TabPaneEdge.png" />
+    <None Include="res\Office2010Blue\TabPaneEdge.png" />
+    <None Include="res\Office2010Silver\TabPaneEdge.png" />
+    <None Include="res\Windows7Scenic\TabPaneEdge.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonCheckBox.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonCheckBox.png" />
+    <None Include="res\Office2007Black\ToolbarButtonCheckBox.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonCheckBox.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonCheckBox.png" />
+    <None Include="res\Office2010Black\ToolbarButtonCheckBox.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonCheckBox.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonCheckBox.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonCheckBox.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Office2007Black\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Office2010Black\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonDropDownGlyph.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonRadioButton.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonRadioButton.png" />
+    <None Include="res\Office2007Black\ToolbarButtonRadioButton.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonRadioButton.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonRadioButton.png" />
+    <None Include="res\Office2010Black\ToolbarButtonRadioButton.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonRadioButton.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonRadioButton.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonRadioButton.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Office2007Black\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Office2010Black\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonSpinArrowGlyphs.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Office2007Black\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Office2010Black\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonSpinArrowsVertical.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtons22.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtons22.png" />
+    <None Include="res\Office2007Black\ToolbarButtons22.png" />
+    <None Include="res\Office2007Blue\ToolbarButtons22.png" />
+    <None Include="res\Office2007Silver\ToolbarButtons22.png" />
+    <None Include="res\Office2010Black\ToolbarButtons22.png" />
+    <None Include="res\Office2010Blue\ToolbarButtons22.png" />
+    <None Include="res\Office2010Silver\ToolbarButtons22.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtons22.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtons50.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtons50.png" />
+    <None Include="res\Office2007Black\ToolbarButtons50.png" />
+    <None Include="res\Office2007Blue\ToolbarButtons50.png" />
+    <None Include="res\Office2007Silver\ToolbarButtons50.png" />
+    <None Include="res\Office2010Black\ToolbarButtons50.png" />
+    <None Include="res\Office2010Blue\ToolbarButtons50.png" />
+    <None Include="res\Office2010Silver\ToolbarButtons50.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtons50.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsComboDropDown.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialCenter.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialLeft.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialRight.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSingle.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitCenter.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitDropDownCenter.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitDropDownRight.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitLeft.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplit22.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplit22.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSplit22.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSplit22.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSplit22.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSplit22.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSplit22.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSplit22.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplit22.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplit50.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplit50.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSplit50.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSplit50.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSplit50.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSplit50.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSplit50.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSplit50.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplit50.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplitDropDown22.png" />
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Office2007Black\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Office2007Blue\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Office2007Silver\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Office2010Black\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Office2010Blue\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Office2010Silver\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplitDropDown50.png" />
+    <None Include="res\GAEA2014Black\ToolbarFaceHorizontal.png" />
+    <None Include="res\Office2007Aqua\ToolbarFaceHorizontal.png" />
+    <None Include="res\Office2007Black\ToolbarFaceHorizontal.png" />
+    <None Include="res\Office2007Blue\ToolbarFaceHorizontal.png" />
+    <None Include="res\Office2007Silver\ToolbarFaceHorizontal.png" />
+    <None Include="res\Office2010Black\ToolbarFaceHorizontal.png" />
+    <None Include="res\Office2010Blue\ToolbarFaceHorizontal.png" />
+    <None Include="res\Office2010Silver\ToolbarFaceHorizontal.png" />
+    <None Include="res\Windows7Scenic\ToolbarFaceHorizontal.png" />
+    <None Include="res\GAEA2014Black\ToolbarFaceVertical.png" />
+    <None Include="res\Office2007Aqua\ToolbarFaceVertical.png" />
+    <None Include="res\Office2007Black\ToolbarFaceVertical.png" />
+    <None Include="res\Office2007Blue\ToolbarFaceVertical.png" />
+    <None Include="res\Office2007Silver\ToolbarFaceVertical.png" />
+    <None Include="res\Office2010Black\ToolbarFaceVertical.png" />
+    <None Include="res\Office2010Blue\ToolbarFaceVertical.png" />
+    <None Include="res\Office2010Silver\ToolbarFaceVertical.png" />
+    <None Include="res\Windows7Scenic\ToolbarFaceVertical.png" />
+    <None Include="res\GAEA2014Black\TooltipFrame.png" />
+    <None Include="res\Office2007Aqua\TooltipFrame.png" />
+    <None Include="res\Office2007Black\TooltipFrame.png" />
+    <None Include="res\Office2007Blue\TooltipFrame.png" />
+    <None Include="res\Office2007Silver\TooltipFrame.png" />
+    <None Include="res\Office2010Black\TooltipFrame.png" />
+    <None Include="res\Office2010Blue\TooltipFrame.png" />
+    <None Include="res\Office2010Silver\TooltipFrame.png" />
+    <None Include="res\Windows7Scenic\TooltipFrame.png" />
+    <None Include="res\GAEA2014Black\TrackBarDown13.png" />
+    <None Include="res\Office2007Aqua\TrackBarDown13.png" />
+    <None Include="res\Office2007Black\TrackBarDown13.png" />
+    <None Include="res\Office2007Blue\TrackBarDown13.png" />
+    <None Include="res\Office2007Silver\TrackBarDown13.png" />
+    <None Include="res\Office2010Black\TrackBarDown13.png" />
+    <None Include="res\Office2010Blue\TrackBarDown13.png" />
+    <None Include="res\Office2010Silver\TrackBarDown13.png" />
+    <None Include="res\Windows7Scenic\TrackBarDown13.png" />
+    <None Include="res\GAEA2014Black\TrackBarLeft13.png" />
+    <None Include="res\Office2007Aqua\TrackBarLeft13.png" />
+    <None Include="res\Office2007Black\TrackBarLeft13.png" />
+    <None Include="res\Office2007Blue\TrackBarLeft13.png" />
+    <None Include="res\Office2007Silver\TrackBarLeft13.png" />
+    <None Include="res\Office2010Black\TrackBarLeft13.png" />
+    <None Include="res\Office2010Blue\TrackBarLeft13.png" />
+    <None Include="res\Office2010Silver\TrackBarLeft13.png" />
+    <None Include="res\Windows7Scenic\TrackBarLeft13.png" />
+    <None Include="res\GAEA2014Black\TrackBarUp13.png" />
+    <None Include="res\Office2007Aqua\TrackBarUp13.png" />
+    <None Include="res\Office2007Black\TrackBarUp13.png" />
+    <None Include="res\Office2007Blue\TrackBarUp13.png" />
+    <None Include="res\Office2007Silver\TrackBarUp13.png" />
+    <None Include="res\Office2010Black\TrackBarUp13.png" />
+    <None Include="res\Office2010Blue\TrackBarUp13.png" />
+    <None Include="res\Office2010Silver\TrackBarUp13.png" />
+    <None Include="res\Windows7Scenic\TrackBarUp13.png" />
+    <None Include="res\GAEA2014Black\TrackbarHorizontal.png" />
+    <None Include="res\Office2007Aqua\TrackbarHorizontal.png" />
+    <None Include="res\Office2007Black\TrackbarHorizontal.png" />
+    <None Include="res\Office2007Blue\TrackbarHorizontal.png" />
+    <None Include="res\Office2007Silver\TrackbarHorizontal.png" />
+    <None Include="res\Office2010Black\TrackbarHorizontal.png" />
+    <None Include="res\Office2010Blue\TrackbarHorizontal.png" />
+    <None Include="res\Office2010Silver\TrackbarHorizontal.png" />
+    <None Include="res\Windows7Scenic\TrackbarHorizontal.png" />
+    <None Include="res\GAEA2014Black\TrackbarRight13.png" />
+    <None Include="res\Office2007Aqua\TrackbarRight13.png" />
+    <None Include="res\Office2007Black\TrackbarRight13.png" />
+    <None Include="res\Office2007Blue\TrackbarRight13.png" />
+    <None Include="res\Office2007Silver\TrackbarRight13.png" />
+    <None Include="res\Office2010Black\TrackbarRight13.png" />
+    <None Include="res\Office2010Blue\TrackbarRight13.png" />
+    <None Include="res\Office2010Silver\TrackbarRight13.png" />
+    <None Include="res\Windows7Scenic\TrackbarRight13.png" />
+    <None Include="res\GAEA2014Black\TrackbarVertical.png" />
+    <None Include="res\Office2007Aqua\TrackbarVertical.png" />
+    <None Include="res\Office2007Black\TrackbarVertical.png" />
+    <None Include="res\Office2007Blue\TrackbarVertical.png" />
+    <None Include="res\Office2007Silver\TrackbarVertical.png" />
+    <None Include="res\Office2010Black\TrackbarVertical.png" />
+    <None Include="res\Office2010Blue\TrackbarVertical.png" />
+    <None Include="res\Office2010Silver\TrackbarVertical.png" />
+    <None Include="res\Windows7Scenic\TrackbarVertical.png" />
+    <None Include="res\GAEA2014Black\WorkspaceTopLeft.png" />
+    <None Include="res\Office2007Aqua\WorkspaceTopLeft.png" />
+    <None Include="res\Office2007Black\WorkspaceTopLeft.png" />
+    <None Include="res\Office2007Blue\WorkspaceTopLeft.png" />
+    <None Include="res\Office2007Silver\WorkspaceTopLeft.png" />
+    <None Include="res\Office2010Black\WorkspaceTopLeft.png" />
+    <None Include="res\Office2010Blue\WorkspaceTopLeft.png" />
+    <None Include="res\Office2010Silver\WorkspaceTopLeft.png" />
+    <None Include="res\Windows7Scenic\WorkspaceTopLeft.png" />
+    <None Include="res\qtitan.png" />
+    <None Include="res\qtitanlogo32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\qribbon_resource.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ResourceCompile>
+    <ResourceCompile Include=".\qribbond_resource.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" Qt5Version_x0020_x64="msvc2017_64" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

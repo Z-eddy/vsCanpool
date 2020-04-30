@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\shared\aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\shared\aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="ui_ribbonsample.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ribbonsample.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\shared\res\about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\..\shared\aboutdialog.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="res\clipboardToolTip.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\example.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\file.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\fontToolTip.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\image001.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\image002.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeClose.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeColumns.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeInsertCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeInsertFootnote.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeInternetfix.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeMail.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeMargins.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeMarkEntry.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeNewFile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeOpenFile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeOrientation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largePageBorders.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largePageColor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largePrepare.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largePrint.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largePrintPreview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largePrintSetup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeSaveAsFile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeSaveFile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeSend.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeSize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeThemes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeWatermark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largedraft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largefullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeoutline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largepaste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeprintlayout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largetablecontents.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeweblayout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largezoom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\paragraphToolTip.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\qtitan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\qtitanlogo32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\qtitanlogo64x64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\question.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\ribbonMaximize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\ribbonMinimize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="ribbonsample.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="res\smallBreaks.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallOpen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallPrint.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallRedo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallSave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallUndo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalladdtext.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallafter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallalignleft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallalignright.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallbefore.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallbullets.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallcenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallchangecase.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallcolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallcolors.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallcopy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallcrossreference.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallcut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalldecreaseindent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalldraft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalleffects.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallfind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallfontclear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallfontgrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallfonts.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallfontshrink.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallformatpainter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallfullscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallgoto.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallhighlightcolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallhyphenation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallincreaseindent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallinsertendnote.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallinserttablefigures.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalljustify.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallleft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalllinenumbers.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalllinespacing.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallmultilevellist.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallnew.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallnextfootnote.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallnoborder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallnumbering.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallonepage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalloutline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallpagewidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallpaste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallprintlayout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallreplace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallright.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallselect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallshading.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallshow_hide_marks.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallshownotes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallsort.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallstrikethrough.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallsubscript.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallsuperscript.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalltextbold.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalltextitalic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalltextjustify.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalltextunder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smalltwopage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallupdatetable.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\smallweblayout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\topheader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\ribbonsample_resource.rc" />
+  </ItemGroup>
+</Project>

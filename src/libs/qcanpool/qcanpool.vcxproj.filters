@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="centralarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancybutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancynavbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancytab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancytabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancywindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imodebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imodebutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minisplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pagesorter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcanpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcanpool_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screenhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skinitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="centralarea.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="cursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="fancybanner.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancybar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancybutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancydialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancynavbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancynavbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancytab.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancytabbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancytabwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancywindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="imode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="imodebar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="imodebar_p.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="imodebutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="minicard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="minisplitter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ministack.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="modemanager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="pagesorter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qcanpool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcanpool_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcanpool_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\shared\qtproject_pch.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <QtMoc Include="quickaccessbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="screenhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="simplefilter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="skinitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tinytabwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancybanner.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancybar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancynavbar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancytabbar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="minicard.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ministack.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="modemanager.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="quickaccessbar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="simplefilter.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tinytabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="..\..\shared\qtproject_pch.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\qm\qcanpool_zh_CN.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\skin\0.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\arrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\arrow_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\arrow_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\arrow_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\arrow_up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\close2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\max.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\max2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\min.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\min2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qcanpool.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resource\main\restore.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\restore2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\setup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\sidebar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\state_ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\qcanpool_resource.rc" />
+    <ResourceCompile Include=".\qcanpoold_resource.rc" />
+  </ItemGroup>
+</Project>

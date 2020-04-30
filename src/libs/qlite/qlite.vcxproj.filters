@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="litebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="liteboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="litedialog.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litemodebar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="litescreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="litetabbar.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litetabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="litewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="litewindow.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="qlite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="litebar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litebar_p.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="liteboard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litedialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litemodebar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="litescreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="litetabbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litetabwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="litewindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qlite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qlite_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\shared\qtproject_pch.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="..\..\shared\qtproject_pch.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\qm\qlite_zh_CN.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\main\close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\max.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\min.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qlite.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resource\main\restore.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\qlite_resource.rc" />
+    <ResourceCompile Include=".\qlited_resource.rc" />
+  </ItemGroup>
+</Project>

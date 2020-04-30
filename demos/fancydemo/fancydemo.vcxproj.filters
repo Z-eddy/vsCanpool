@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\progressbar\QtColorProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\gauge\QtGaugeProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\button\QtNavButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\view\QtNavListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\view\QtNavTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\progressbar\QtRoundProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\progressbar\QtStateProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\progressbar\QtWaitProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomcontrols\progressbar\QtZoomCircleWait.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chartsmode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ctablewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="custommode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menumode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomplot\qcustomchart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\modules\qcustomplot\qcustomplot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="skindialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\progressbar\QtColorProgressBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\gauge\QtGaugeProgress.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\button\QtNavButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\view\QtNavListView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\view\QtNavTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\progressbar\QtRoundProgressBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\progressbar\QtStateProgressBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\progressbar\QtWaitProgressBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomcontrols\progressbar\QtZoomCircleWait.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="chartsmode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cmainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ctablewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="custommode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="cwidgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="explorer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="menumode.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomplot\qcustomchart.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\src\modules\qcustomplot\qcustomplot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="skindialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="theme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\skin\0.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\1.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\10.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\11.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\12.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\13.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\14.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\2.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\src\modules\qcustomplot\images\2d.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\3.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\src\modules\qcustomplot\images\3d.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\4.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\5.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\6.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\7.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\8.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\9.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\align\align-bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\align\align-center-horizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\align\align-center-vertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\align\align-left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\align\align-right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\align\align-top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\src\modules\qcustomplot\images\bar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\chart.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\..\src\modules\qcustomplot\chart.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resource\qss\classic.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\dark.cptheme">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\src\modules\qcustomplot\images\data.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\debug.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\default.cptheme">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\src\modules\qcustomplot\images\download.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\edit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\explorer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="fancydemo.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resource\mode\graph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\qm\lang_en_US.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\qm\lang_zh_CN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\src\modules\qcustomplot\images\line.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\main\logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\master.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\option.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\paint.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\qm\qt4.8.5\qt_zh_CN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\qm\qt5.8.0\qt_zh_CN.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\recent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\mode\refer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\src\modules\qcustomplot\images\refresh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\save_all.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\skin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\start.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\suspend.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\tools\common\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\skin\white.cptheme">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fancydemo.rc" />
+  </ItemGroup>
+</Project>

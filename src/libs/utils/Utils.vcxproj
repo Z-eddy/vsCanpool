@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6366A874-0EB5-3600-8CD6-66FF7DE1285C}</ProjectGuid>
+    <RootNamespace>Utils</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.17763.0</WindowsTargetPlatformMinVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>..\..\..\lib\qtproject\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>Utils1</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>..\..\..\lib\qtproject\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>Utilsd1</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\lib\qtproject\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Utils1</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</PostBuildEventUseInBuild>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\lib\qtproject\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Utilsd1</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <PostBuildEventUseInBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\..\src;..\..\libs;E:/Practice/qtcanpool/tools;..\..\plugins;..\..\..\include;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtConcurrent;$(QTDIR)\include\QtQml;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtCore;release;.;D:\code\VulkanSDK\1.1.114.0\include;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>..\..\shared\qtproject_pch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>..\..\shared\qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)\Utils.pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;"RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins"";"RELATIVE_LIBEXEC_PATH="."";"RELATIVE_DATA_PATH="../share/qtproject"";"RELATIVE_DOC_PATH="../share/doc/qtproject"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;QT_MESSAGELOGCONTEXT;UTILS_LIBRARY;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CONCURRENT_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\iphlpapi.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ws2_32.lib";$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Concurrent.lib;$(QTDIR)\lib\Qt5Qml.lib;$(QTDIR)\lib\Qt5Network.lib;$(QTDIR)\lib\Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;E:\Practice\qtcanpool\lib\qtproject;E:\Practice\qtcanpool\lib\qtproject\plugins;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\Utils1.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>1.0</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;"RELATIVE_PLUGIN_PATH=\"../lib/qtproject/plugins\"";"RELATIVE_LIBEXEC_PATH=\".\"";"RELATIVE_DATA_PATH=\"../share/qtproject\"";"RELATIVE_DOC_PATH=\"../share/doc/qtproject\"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;QT_MESSAGELOGCONTEXT;UTILS_LIBRARY;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CONCURRENT_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\..\..\bin</Command>
+      <Message>Copy Utils1.dll to ..\..\..\bin</Message>
+    </PostBuildEvent>
+    <QtMoc>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins";RELATIVE_LIBEXEC_PATH=".";RELATIVE_DATA_PATH="../share/qtproject";RELATIVE_DOC_PATH="../share/doc/qtproject";IDE_LIBRARY_BASENAME=lib;QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;QT_MESSAGELOGCONTEXT;UTILS_LIBRARY;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CONCURRENT_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_CORE_LIB</Define>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <InputFile>%(FullPath)</InputFile>
+      <DynamicSource>output</DynamicSource>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;$(QTDIR)\mkspecs/win32-msvc;.;E:/Practice/qtcanpool/src;E:/Practice/qtcanpool/src/libs;E:/Practice/qtcanpool/tools;E:/Practice/qtcanpool/src/plugins;E:/Practice/qtcanpool/include;$(QTDIR)\include;$(QTDIR)\include/QtWidgets;$(QTDIR)\include/QtGui;$(QTDIR)\include/QtANGLE;$(QTDIR)\include/QtConcurrent;$(QTDIR)\include/QtQml;$(QTDIR)\include/QtNetwork;$(QTDIR)\include/QtCore;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt</IncludePath>
+    </QtMoc>
+    <QtUic>
+      <InputFile>%(FullPath)</InputFile>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+      <QTDIR>$(QTDIR)</QTDIR>
+    </QtUic>
+    <QtRcc>
+      <InitFuncName>utils</InitFuncName>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <Compression>default</Compression>
+      <InputFile>%(FullPath)</InputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;..\..\..\src;..\..\libs;E:/Practice/qtcanpool/tools;..\..\plugins;..\..\..\include;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtTest;$(QTDIR)\include\QtConcurrent;$(QTDIR)\include\QtQml;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtCore;debug;.;D:\code\VulkanSDK\1.1.114.0\include;$(QTDIR)\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>..\..\shared\qtproject_pch.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>..\..\shared\qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)\Utilsd.pch</PrecompiledHeaderOutputFile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;WITH_TESTS;"RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins"";"RELATIVE_LIBEXEC_PATH="."";"RELATIVE_DATA_PATH="../share/qtproject"";"RELATIVE_DOC_PATH="../share/doc/qtproject"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;UTILS_LIBRARY;QT_WIDGETS_LIB;QT_GUI_LIB;QT_TESTLIB_LIB;QT_CONCURRENT_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\iphlpapi.lib";"C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ws2_32.lib";$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Testd.lib;$(QTDIR)\lib\Qt5Concurrentd.lib;$(QTDIR)\lib\Qt5Qmld.lib;$(QTDIR)\lib\Qt5Networkd.lib;$(QTDIR)\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;E:\Practice\qtcanpool\lib\qtproject;E:\Practice\qtcanpool\lib\qtproject\plugins;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\Utilsd1.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>1.0</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;WITH_TESTS;"RELATIVE_PLUGIN_PATH=\"../lib/qtproject/plugins\"";"RELATIVE_LIBEXEC_PATH=\".\"";"RELATIVE_DATA_PATH=\"../share/qtproject\"";"RELATIVE_DOC_PATH=\"../share/doc/qtproject\"";IDE_LIBRARY_BASENAME="lib";QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;UTILS_LIBRARY;QT_WIDGETS_LIB;QT_GUI_LIB;QT_TESTLIB_LIB;QT_CONCURRENT_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy "$(TargetPath)" ..\..\..\bin</Command>
+      <Message>Copy Utilsd1.dll to ..\..\..\bin</Message>
+    </PostBuildEvent>
+    <QtMoc>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;WITH_TESTS;RELATIVE_PLUGIN_PATH="../lib/qtproject/plugins";RELATIVE_LIBEXEC_PATH=".";RELATIVE_DATA_PATH="../share/qtproject";RELATIVE_DOC_PATH="../share/doc/qtproject";IDE_LIBRARY_BASENAME=lib;QT_CREATOR;QT_NO_CAST_TO_ASCII;QT_RESTRICTED_CAST_FROM_ASCII;QT_DISABLE_DEPRECATED_BEFORE=0x050900;QT_USE_FAST_OPERATOR_PLUS;QT_USE_FAST_CONCATENATION;_CRT_SECURE_NO_WARNINGS;UTILS_LIBRARY;QT_WIDGETS_LIB;QT_GUI_LIB;QT_TESTLIB_LIB;QT_CONCURRENT_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=.</Define>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <InputFile>%(FullPath)</InputFile>
+      <DynamicSource>output</DynamicSource>
+      <IncludePath>.\GeneratedFiles\$(ConfigurationName);.\GeneratedFiles;$(QTDIR)\mkspecs/win32-msvc;.;E:/Practice/qtcanpool/src;E:/Practice/qtcanpool/src/libs;E:/Practice/qtcanpool/tools;E:/Practice/qtcanpool/src/plugins;E:/Practice/qtcanpool/include;$(QTDIR)\include;$(QTDIR)\include/QtWidgets;$(QTDIR)\include/QtGui;$(QTDIR)\include/QtANGLE;$(QTDIR)\include/QtTest;$(QTDIR)\include/QtConcurrent;$(QTDIR)\include/QtQml;$(QTDIR)\include/QtNetwork;$(QTDIR)\include/QtCore;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt</IncludePath>
+    </QtMoc>
+    <QtUic>
+      <InputFile>%(FullPath)</InputFile>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+      <QTDIR>$(QTDIR)</QTDIR>
+    </QtUic>
+    <QtRcc>
+      <QTDIR>$(QTDIR)</QTDIR>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <Compression>default</Compression>
+      <InitFuncName>utils</InitFuncName>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+      <InputFile>%(FullPath)</InputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ansiescapecodehandler.cpp" />
+    <ClCompile Include="appmainwindow.cpp" />
+    <ClCompile Include="basetreeview.cpp" />
+    <ClCompile Include="benchmarker.cpp" />
+    <ClCompile Include="buildablehelperlibrary.cpp" />
+    <ClCompile Include="categorysortfiltermodel.cpp" />
+    <ClCompile Include="changeset.cpp" />
+    <ClCompile Include="checkablemessagebox.cpp" />
+    <ClCompile Include="classnamevalidatinglineedit.cpp" />
+    <ClCompile Include="codegeneration.cpp" />
+    <ClCompile Include="completinglineedit.cpp" />
+    <ClCompile Include="completingtextedit.cpp" />
+    <ClCompile Include="consoleprocess.cpp" />
+    <ClCompile Include="consoleprocess_win.cpp" />
+    <ClCompile Include="delegates.cpp" />
+    <ClCompile Include="detailsbutton.cpp" />
+    <ClCompile Include="detailswidget.cpp" />
+    <ClCompile Include="differ.cpp" />
+    <ClCompile Include="dropsupport.cpp" />
+    <ClCompile Include="elfreader.cpp" />
+    <ClCompile Include="elidinglabel.cpp" />
+    <ClCompile Include="environment.cpp" />
+    <ClCompile Include="environmentmodel.cpp" />
+    <ClCompile Include="execmenu.cpp" />
+    <ClCompile Include="faketooltip.cpp" />
+    <ClCompile Include="fancylineedit.cpp" />
+    <ClCompile Include="fancymainwindow.cpp" />
+    <ClCompile Include="filecrumblabel.cpp" />
+    <ClCompile Include="fileinprojectfinder.cpp" />
+    <ClCompile Include="filenamevalidatinglineedit.cpp" />
+    <ClCompile Include="filesearch.cpp" />
+    <ClCompile Include="filesystemwatcher.cpp" />
+    <ClCompile Include="fileutils.cpp" />
+    <ClCompile Include="filewizardpage.cpp" />
+    <ClCompile Include="fixedsizeclicklabel.cpp" />
+    <ClCompile Include="flowlayout.cpp" />
+    <ClCompile Include="fuzzymatcher.cpp" />
+    <ClCompile Include="guard.cpp" />
+    <ClCompile Include="headerviewstretcher.cpp" />
+    <ClCompile Include="highlightingitemdelegate.cpp" />
+    <ClCompile Include="historycompleter.cpp" />
+    <ClCompile Include="hostosinfo.cpp" />
+    <ClCompile Include="htmldocextractor.cpp" />
+    <ClCompile Include="icon.cpp" />
+    <ClCompile Include="itemviews.cpp" />
+    <ClCompile Include="json.cpp" />
+    <ClCompile Include="macroexpander.cpp" />
+    <ClCompile Include="mimetypes\mimedatabase.cpp" />
+    <ClCompile Include="mimetypes\mimeglobpattern.cpp" />
+    <ClCompile Include="mimetypes\mimemagicrule.cpp" />
+    <ClCompile Include="mimetypes\mimemagicrulematcher.cpp" />
+    <ClCompile Include="mimetypes\mimeprovider.cpp" />
+    <ClCompile Include="mimetypes\mimetype.cpp" />
+    <ClCompile Include="mimetypes\mimetypeparser.cpp" />
+    <ClCompile Include="navigationtreeview.cpp" />
+    <ClCompile Include="networkaccessmanager.cpp" />
+    <ClCompile Include="newclasswidget.cpp" />
+    <ClCompile Include="outputformatter.cpp" />
+    <ClCompile Include="overridecursor.cpp" />
+    <ClCompile Include="parameteraction.cpp" />
+    <ClCompile Include="pathchooser.cpp" />
+    <ClCompile Include="pathlisteditor.cpp" />
+    <ClCompile Include="persistentsettings.cpp" />
+    <ClCompile Include="port.cpp" />
+    <ClCompile Include="portlist.cpp" />
+    <ClCompile Include="processhandle.cpp" />
+    <ClCompile Include="progressindicator.cpp" />
+    <ClCompile Include="projectintropage.cpp" />
+    <ClCompile Include="proxyaction.cpp" />
+    <ClCompile Include="proxycredentialsdialog.cpp" />
+    <ClCompile Include="qtcassert.cpp" />
+    <ClCompile Include="qtcprocess.cpp" />
+    <ClCompile Include="reloadpromptutils.cpp" />
+    <ClCompile Include="removefiledialog.cpp" />
+    <ClCompile Include="runextensions.cpp" />
+    <ClCompile Include="savedaction.cpp" />
+    <ClCompile Include="savefile.cpp" />
+    <ClCompile Include="settingsaccessor.cpp" />
+    <ClCompile Include="settingsselector.cpp" />
+    <ClCompile Include="shellcommand.cpp" />
+    <ClCompile Include="shellcommandpage.cpp" />
+    <ClCompile Include="statuslabel.cpp" />
+    <ClCompile Include="stringutils.cpp" />
+    <ClCompile Include="styledbar.cpp" />
+    <ClCompile Include="stylehelper.cpp" />
+    <ClCompile Include="templateengine.cpp" />
+    <ClCompile Include="temporarydirectory.cpp" />
+    <ClCompile Include="temporaryfile.cpp" />
+    <ClCompile Include="textfieldcheckbox.cpp" />
+    <ClCompile Include="textfieldcombobox.cpp" />
+    <ClCompile Include="textfileformat.cpp" />
+    <ClCompile Include="textutils.cpp" />
+    <ClCompile Include="theme\theme.cpp" />
+    <ClCompile Include="tooltip\tips.cpp" />
+    <ClCompile Include="tooltip\tooltip.cpp" />
+    <ClCompile Include="treemodel.cpp" />
+    <ClCompile Include="treeviewcombobox.cpp" />
+    <ClCompile Include="uncommentselection.cpp" />
+    <ClCompile Include="unixutils.cpp" />
+    <ClCompile Include="url.cpp" />
+    <ClCompile Include="utilsicons.cpp" />
+    <ClCompile Include="winutils.cpp" />
+    <ClCompile Include="wizardpage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QtConcurrentTools" />
+    <ClInclude Include="algorithm.h" />
+    <ClInclude Include="ansiescapecodehandler.h" />
+    <QtMoc Include="appmainwindow.h">
+    </QtMoc>
+    <QtMoc Include="basetreeview.h">
+    </QtMoc>
+    <ClInclude Include="benchmarker.h" />
+    <ClInclude Include="buildablehelperlibrary.h" />
+    <ClInclude Include="categorysortfiltermodel.h" />
+    <ClInclude Include="changeset.h" />
+    <QtMoc Include="checkablemessagebox.h">
+    </QtMoc>
+    <QtMoc Include="classnamevalidatinglineedit.h">
+    </QtMoc>
+    <ClInclude Include="codegeneration.h" />
+    <QtMoc Include="completinglineedit.h">
+    </QtMoc>
+    <QtMoc Include="completingtextedit.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="consoleprocess.h">
+    </QtMoc>
+    <ClInclude Include="consoleprocess_p.h" />
+    <QtMoc Include="crumblepath.h">
+    </QtMoc>
+    <ClInclude Include="declarationmacros.h" />
+    <ClInclude Include="delegates.h" />
+    <QtMoc Include="detailsbutton.h">
+    </QtMoc>
+    <QtMoc Include="detailswidget.h">
+    </QtMoc>
+    <ClInclude Include="differ.h" />
+    <QtMoc Include="dropsupport.h">
+    </QtMoc>
+    <ClInclude Include="tooltip\effects.h" />
+    <ClInclude Include="elfreader.h" />
+    <QtMoc Include="elidinglabel.h">
+    </QtMoc>
+    <ClInclude Include="environment.h" />
+    <QtMoc Include="environmentdialog.h">
+    </QtMoc>
+    <QtMoc Include="environmentmodel.h">
+    </QtMoc>
+    <ClInclude Include="execmenu.h" />
+    <ClInclude Include="executeondestruction.h" />
+    <ClInclude Include="fadingindicator.h" />
+    <QtMoc Include="faketooltip.h">
+    </QtMoc>
+    <QtMoc Include="fancylineedit.h">
+    </QtMoc>
+    <QtMoc Include="fancymainwindow.h">
+    </QtMoc>
+    <QtMoc Include="filecrumblabel.h">
+    </QtMoc>
+    <ClInclude Include="fileinprojectfinder.h" />
+    <QtMoc Include="filenamevalidatinglineedit.h">
+    </QtMoc>
+    <ClInclude Include="filesearch.h" />
+    <QtMoc Include="filesystemwatcher.h">
+    </QtMoc>
+    <ClInclude Include="fileutils.h" />
+    <QtMoc Include="filewizardpage.h">
+    </QtMoc>
+    <QtMoc Include="fixedsizeclicklabel.h">
+    </QtMoc>
+    <ClInclude Include="flowlayout.h" />
+    <ClInclude Include="functiontraits.h" />
+    <ClInclude Include="fuzzymatcher.h" />
+    <ClInclude Include="guard.h" />
+    <ClInclude Include="headerviewstretcher.h" />
+    <ClInclude Include="highlightingitemdelegate.h" />
+    <QtMoc Include="historycompleter.h">
+    </QtMoc>
+    <ClInclude Include="hostosinfo.h" />
+    <ClInclude Include="htmldocextractor.h" />
+    <ClInclude Include="icon.h" />
+    <QtMoc Include="itemviews.h">
+    </QtMoc>
+    <ClInclude Include="json.h" />
+    <ClInclude Include="linecolumn.h" />
+    <ClInclude Include="link.h" />
+    <ClInclude Include="listutils.h" />
+    <ClInclude Include="macroexpander.h" />
+    <QtMoc Include="mapreduce.h">
+    </QtMoc>
+    <ClInclude Include="mimetypes\mimedatabase.h" />
+    <ClInclude Include="mimetypes\mimedatabase_p.h" />
+    <ClInclude Include="mimetypes\mimeglobpattern_p.h" />
+    <ClInclude Include="mimetypes\mimemagicrule_p.h" />
+    <ClInclude Include="mimetypes\mimemagicrulematcher_p.h" />
+    <ClInclude Include="mimetypes\mimeprovider_p.h" />
+    <ClInclude Include="mimetypes\mimetype.h" />
+    <ClInclude Include="mimetypes\mimetype_p.h" />
+    <ClInclude Include="mimetypes\mimetypeparser_p.h" />
+    <QtMoc Include="navigationtreeview.h">
+    </QtMoc>
+    <QtMoc Include="networkaccessmanager.h">
+    </QtMoc>
+    <QtMoc Include="newclasswidget.h">
+    </QtMoc>
+    <ClInclude Include="optional.h" />
+    <ClInclude Include="..\3rdparty\optional\optional.hpp" />
+    <ClInclude Include="osspecificaspects.h" />
+    <ClInclude Include="outputformat.h" />
+    <QtMoc Include="outputformatter.h">
+    </QtMoc>
+    <ClInclude Include="overridecursor.h" />
+    <QtMoc Include="parameteraction.h">
+    </QtMoc>
+    <QtMoc Include="pathchooser.h">
+    </QtMoc>
+    <QtMoc Include="pathlisteditor.h">
+    </QtMoc>
+    <ClInclude Include="persistentsettings.h" />
+    <ClInclude Include="pointeralgorithm.h" />
+    <ClInclude Include="port.h" />
+    <ClInclude Include="portlist.h" />
+    <ClInclude Include="predicates.h" />
+    <ClInclude Include="processhandle.h" />
+    <QtMoc Include="progressindicator.h">
+    </QtMoc>
+    <QtMoc Include="projectintropage.h">
+    </QtMoc>
+    <QtMoc Include="proxyaction.h">
+    </QtMoc>
+    <QtMoc Include="proxycredentialsdialog.h">
+    </QtMoc>
+    <ClInclude Include="qtcassert.h" />
+    <QtMoc Include="qtcolorbutton.h">
+    </QtMoc>
+    <QtMoc Include="qtcprocess.h">
+    </QtMoc>
+    <CustomBuild Include="..\..\shared\qtproject_pch.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">echo /*-------------------------------------------------------------------- &gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Precompiled header source file used by Visual Studio.NET to generate&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * the .pch file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Due to issues with the dependencies checker within the IDE, it&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * sometimes fails to recompile the PCH file, if we force the IDE to&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * create the PCH file directly from the header file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * specified, and is used as the common stdafx.cpp. The file is only&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * generated when creating .vcxproj project files, and is not used for&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * command line compilations by nmake.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * WARNING: All changes made in this file will be lost.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo --------------------------------------------------------------------*/&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo #include "qtproject_pch.h"&gt;&gt;..\..\shared\qtproject_pch.h.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating precompiled header source file '..\..\shared\qtproject_pch.h.cpp' ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\shared\qtproject_pch.h.cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">echo /*-------------------------------------------------------------------- &gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Precompiled header source file used by Visual Studio.NET to generate&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * the .pch file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * Due to issues with the dependencies checker within the IDE, it&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * sometimes fails to recompile the PCH file, if we force the IDE to&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * create the PCH file directly from the header file.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * This file is auto-generated by qmake since no PRECOMPILED_SOURCE was&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * specified, and is used as the common stdafx.cpp. The file is only&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * generated when creating .vcxproj project files, and is not used for&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * command line compilations by nmake.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo *&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo * WARNING: All changes made in this file will be lost.&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo --------------------------------------------------------------------*/&gt;&gt;..\..\shared\qtproject_pch.h.cpp
+if errorlevel 1 goto VCEnd
+echo #include "qtproject_pch.h"&gt;&gt;..\..\shared\qtproject_pch.h.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating precompiled header source file '..\..\shared\qtproject_pch.h.cpp' ...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\shared\qtproject_pch.h.cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="reloadpromptutils.h" />
+    <QtMoc Include="removefiledialog.h">
+    </QtMoc>
+    <ClInclude Include="tooltip\reuse.h" />
+    <ClInclude Include="runextensions.h" />
+    <QtMoc Include="savedaction.h">
+    </QtMoc>
+    <QtMoc Include="savefile.h">
+    </QtMoc>
+    <ClInclude Include="scopedswap.h" />
+    <ClInclude Include="settingsaccessor.h" />
+    <QtMoc Include="settingsselector.h">
+    </QtMoc>
+    <QtMoc Include="shellcommand.h">
+    </QtMoc>
+    <QtMoc Include="shellcommandpage.h">
+    </QtMoc>
+    <ClInclude Include="sizedarray.h" />
+    <ClInclude Include="smallstring.h" />
+    <ClInclude Include="smallstringfwd.h" />
+    <ClInclude Include="smallstringio.h" />
+    <ClInclude Include="smallstringiterator.h" />
+    <ClInclude Include="smallstringlayout.h" />
+    <ClInclude Include="smallstringliteral.h" />
+    <ClInclude Include="smallstringmemory.h" />
+    <ClInclude Include="smallstringvector.h" />
+    <QtMoc Include="statuslabel.h">
+    </QtMoc>
+    <ClInclude Include="stringutils.h" />
+    <QtMoc Include="styledbar.h">
+    </QtMoc>
+    <ClInclude Include="stylehelper.h" />
+    <QtMoc Include="synchronousprocess.h">
+    </QtMoc>
+    <ClInclude Include="templateengine.h" />
+    <ClInclude Include="temporarydirectory.h" />
+    <ClInclude Include="temporaryfile.h" />
+    <QtMoc Include="textfieldcheckbox.h">
+    </QtMoc>
+    <QtMoc Include="textfieldcombobox.h">
+    </QtMoc>
+    <ClInclude Include="textfileformat.h" />
+    <ClInclude Include="textutils.h" />
+    <QtMoc Include="theme\theme.h">
+    </QtMoc>
+    <ClInclude Include="theme\theme_p.h" />
+    <QtMoc Include="tooltip\tips.h">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</DynamicSource>
+    </QtMoc>
+    <QtMoc Include="tooltip\tooltip.h">
+    </QtMoc>
+    <QtMoc Include="treemodel.h">
+    </QtMoc>
+    <QtMoc Include="treeviewcombobox.h">
+    </QtMoc>
+    <ClInclude Include="uncommentselection.h" />
+    <ClInclude Include="unixutils.h" />
+    <ClInclude Include="url.h" />
+    <ClInclude Include="utils_global.h" />
+    <ClInclude Include="utilsicons.h" />
+    <ClInclude Include="..\3rdparty\variant\variant.hpp" />
+    <ClInclude Include="variant.h" />
+    <ClInclude Include="winutils.h" />
+    <QtMoc Include="wizard.h">
+    </QtMoc>
+    <QtMoc Include="wizardpage.h">
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="crumblepath.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+    </QtMoc>
+    <QtMoc Include="environmentdialog.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+    </QtMoc>
+    <QtMoc Include="fadingindicator.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+    </QtMoc>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MDd -std:c++14 -EHsc -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -std:c++14 -EHsc -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <QtMoc Include="qtcolorbutton.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+    </QtMoc>
+    <ClCompile Include="..\..\shared\qtproject_pch.h.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(NOINHERIT)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(NOINHERIT)</ForcedIncludeFiles>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qtproject_pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <QtMoc Include="synchronousprocess.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+    </QtMoc>
+    <ClInclude Include="ui_filewizardpage.h" />
+    <ClInclude Include="ui_newclasswidget.h" />
+    <ClInclude Include="ui_projectintropage.h" />
+    <ClInclude Include="ui_proxycredentialsdialog.h" />
+    <ClInclude Include="ui_removefiledialog.h" />
+    <QtMoc Include="wizard.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="filewizardpage.ui">
+    </QtUic>
+    <QtUic Include="newclasswidget.ui">
+    </QtUic>
+    <QtUic Include="projectintropage.ui">
+    </QtUic>
+    <QtUic Include="proxycredentialsdialog.ui">
+    </QtUic>
+    <QtUic Include="removefiledialog.ui">
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Desktop.png" />
+    <None Include="images\app-on-top.png" />
+    <None Include="images\app-on-top@2x.png" />
+    <None Include="images\arrow.png" />
+    <None Include="images\arrowdown.png" />
+    <None Include="images\arrowdown@2x.png" />
+    <None Include="images\arrowup.png" />
+    <None Include="images\arrowup@2x.png" />
+    <None Include="images\bookmark.png" />
+    <None Include="images\bookmark@2x.png" />
+    <None Include="images\boundingrect.png" />
+    <None Include="images\boundingrect@2x.png" />
+    <None Include="images\broken.png" />
+    <None Include="images\broken@2x.png" />
+    <None Include="images\classmemberfunction.png" />
+    <None Include="images\classmemberfunction@2x.png" />
+    <None Include="images\classmembervariable.png" />
+    <None Include="images\classmembervariable@2x.png" />
+    <None Include="images\classparent.png" />
+    <None Include="images\classparent@2x.png" />
+    <None Include="images\classrelation.png" />
+    <None Include="images\classrelation@2x.png" />
+    <None Include="images\classrelationbackground.png" />
+    <None Include="images\classrelationbackground@2x.png" />
+    <None Include="images\clean_pane_small.png" />
+    <None Include="images\clean_pane_small@2x.png" />
+    <None Include="images\close.png" />
+    <None Include="images\close@2x.png" />
+    <None Include="images\codemodelerror.png" />
+    <None Include="images\codemodelerror@2x.png" />
+    <None Include="images\codemodelwarning.png" />
+    <None Include="images\codemodelwarning@2x.png" />
+    <None Include="images\collapse.png" />
+    <None Include="images\collapse@2x.png" />
+    <None Include="images\compile_error_taskbar.png" />
+    <None Include="images\compile_error_taskbar@2x.png" />
+    <None Include="images\crumblepath-segment-first-hover.png" />
+    <None Include="images\crumblepath-segment-first-hover@2x.png" />
+    <None Include="images\crumblepath-segment-first.png" />
+    <None Include="images\crumblepath-segment-first@2x.png" />
+    <None Include="images\crumblepath-segment-last-hover.png" />
+    <None Include="images\crumblepath-segment-last-hover@2x.png" />
+    <None Include="images\crumblepath-segment-last.png" />
+    <None Include="images\crumblepath-segment-last@2x.png" />
+    <None Include="images\crumblepath-segment-middle-hover.png" />
+    <None Include="images\crumblepath-segment-middle-hover@2x.png" />
+    <None Include="images\crumblepath-segment-middle.png" />
+    <None Include="images\crumblepath-segment-middle@2x.png" />
+    <None Include="images\crumblepath-segment-single-hover.png" />
+    <None Include="images\crumblepath-segment-single-hover@2x.png" />
+    <None Include="images\crumblepath-segment-single.png" />
+    <None Include="images\crumblepath-segment-single@2x.png" />
+    <None Include="images\dark_fileicon.png" />
+    <None Include="images\dark_foldericon.png" />
+    <None Include="images\desktopdevicesmall.png" />
+    <None Include="images\desktopdevicesmall@2x.png" />
+    <None Include="images\editclear.png" />
+    <None Include="images\editclear@2x.png" />
+    <None Include="images\editcopy.png" />
+    <None Include="images\editcopy@2x.png" />
+    <None Include="images\editcut.png" />
+    <None Include="images\editcut@2x.png" />
+    <None Include="images\editpaste.png" />
+    <None Include="images\editpaste@2x.png" />
+    <None Include="images\empty14.png" />
+    <None Include="images\empty16.png" />
+    <None Include="images\enum.png" />
+    <None Include="images\enum@2x.png" />
+    <None Include="images\enumerator.png" />
+    <None Include="images\enumerator@2x.png" />
+    <None Include="images\error.png" />
+    <None Include="images\error@2x.png" />
+    <None Include="images\expand.png" />
+    <None Include="images\expand@2x.png" />
+    <None Include="images\extension.png" />
+    <None Include="images\extension@2x.png" />
+    <None Include="images\eye_closed.png" />
+    <None Include="images\eye_closed@2x.png" />
+    <None Include="images\eye_open.png" />
+    <None Include="images\eye_open@2x.png" />
+    <None Include="tooltip\images\f1.png" />
+    <None Include="images\fileexport.png" />
+    <None Include="images\fileexport@2x.png" />
+    <None Include="images\filemultiexport.png" />
+    <None Include="images\filemultiexport@2x.png" />
+    <None Include="images\filenew.png" />
+    <None Include="images\filenew@2x.png" />
+    <None Include="images\fileopen.png" />
+    <None Include="images\fileopen@2x.png" />
+    <None Include="images\filesave.png" />
+    <None Include="images\filesave@2x.png" />
+    <None Include="images\filledcircle.png" />
+    <None Include="images\filledcircle@2x.png" />
+    <None Include="images\filtericon.png" />
+    <None Include="images\filtericon@2x.png" />
+    <None Include="images\fittoview.png" />
+    <None Include="images\fittoview@2x.png" />
+    <None Include="images\home.png" />
+    <None Include="images\home@2x.png" />
+    <None Include="images\iconoverlay_add.png" />
+    <None Include="images\iconoverlay_add@2x.png" />
+    <None Include="images\iconoverlay_add_background.png" />
+    <None Include="images\iconoverlay_add_background@2x.png" />
+    <None Include="images\iconoverlay_add_small.png" />
+    <None Include="images\iconoverlay_add_small@2x.png" />
+    <None Include="images\iconoverlay_error.png" />
+    <None Include="images\iconoverlay_error@2x.png" />
+    <None Include="images\iconoverlay_error_background.png" />
+    <None Include="images\iconoverlay_error_background@2x.png" />
+    <None Include="images\iconoverlay_reset.png" />
+    <None Include="images\iconoverlay_reset@2x.png" />
+    <None Include="images\iconoverlay_warning.png" />
+    <None Include="images\iconoverlay_warning@2x.png" />
+    <None Include="images\iconoverlay_warning_background.png" />
+    <None Include="images\iconoverlay_warning_background@2x.png" />
+    <None Include="images\info.png" />
+    <None Include="images\info@2x.png" />
+    <None Include="images\inputfield.png" />
+    <None Include="images\inputfield@2x.png" />
+    <None Include="images\inputfield_disabled.png" />
+    <None Include="images\inputfield_disabled@2x.png" />
+    <None Include="images\interrupt_small.png" />
+    <None Include="images\interrupt_small@2x.png" />
+    <None Include="images\keyword.png" />
+    <None Include="images\keyword@2x.png" />
+    <None Include="images\leftsidebaricon.png" />
+    <None Include="images\leftsidebaricon@2x.png" />
+    <None Include="images\lightbulb.png" />
+    <None Include="images\lightbulb@2x.png" />
+    <None Include="images\lightbulbcap.png" />
+    <None Include="images\lightbulbcap@2x.png" />
+    <None Include="images\linkicon.png" />
+    <None Include="images\linkicon@2x.png" />
+    <None Include="images\locked.png" />
+    <None Include="images\locked@2x.png" />
+    <None Include="images\macro.png" />
+    <None Include="images\macro@2x.png" />
+    <None Include="images\magnifier.png" />
+    <None Include="images\magnifier@2x.png" />
+    <None Include="images\member.png" />
+    <None Include="images\member@2x.png" />
+    <None Include="images\minus.png" />
+    <None Include="images\minus@2x.png" />
+    <None Include="images\namespace.png" />
+    <None Include="images\namespace@2x.png" />
+    <None Include="images\next.png" />
+    <None Include="images\next@2x.png" />
+    <None Include="images\notloaded.png" />
+    <None Include="images\notloaded@2x.png" />
+    <None Include="images\ok.png" />
+    <None Include="images\ok@2x.png" />
+    <None Include="images\pan.png" />
+    <None Include="images\pan@2x.png" />
+    <None Include="images\panel_button.png" />
+    <None Include="images\panel_button@2x.png" />
+    <None Include="images\panel_button_checked.png" />
+    <None Include="images\panel_button_checked@2x.png" />
+    <None Include="images\panel_button_checked_hover.png" />
+    <None Include="images\panel_button_checked_hover@2x.png" />
+    <None Include="images\panel_button_hover.png" />
+    <None Include="images\panel_button_hover@2x.png" />
+    <None Include="images\panel_button_pressed.png" />
+    <None Include="images\panel_button_pressed@2x.png" />
+    <None Include="images\panel_manage_button.png" />
+    <None Include="images\panel_manage_button@2x.png" />
+    <None Include="images\plus.png" />
+    <None Include="images\plus@2x.png" />
+    <None Include="images\prev.png" />
+    <None Include="images\prev@2x.png" />
+    <None Include="images\private.png" />
+    <None Include="images\private@2x.png" />
+    <None Include="images\privatebackground.png" />
+    <None Include="images\privatebackground@2x.png" />
+    <None Include="images\progressbar.png" />
+    <None Include="images\progressbar@2x.png" />
+    <None Include="images\progressindicator_big.png" />
+    <None Include="images\progressindicator_big@2x.png" />
+    <None Include="images\progressindicator_medium.png" />
+    <None Include="images\progressindicator_medium@2x.png" />
+    <None Include="images\progressindicator_small.png" />
+    <None Include="images\progressindicator_small@2x.png" />
+    <None Include="images\project.png" />
+    <None Include="images\project@2x.png" />
+    <None Include="images\property.png" />
+    <None Include="images\property@2x.png" />
+    <None Include="images\propertybackground.png" />
+    <None Include="images\propertybackground@2x.png" />
+    <None Include="images\protected.png" />
+    <None Include="images\protected@2x.png" />
+    <None Include="images\protectedbackground.png" />
+    <None Include="images\protectedbackground@2x.png" />
+    <None Include="images\redo.png" />
+    <None Include="images\redo@2x.png" />
+    <None Include="images\reload_gray.png" />
+    <None Include="images\reload_gray@2x.png" />
+    <None Include="images\replace_a.png" />
+    <None Include="images\replace_a@2x.png" />
+    <None Include="images\replace_b.png" />
+    <None Include="images\replace_b@2x.png" />
+    <None Include="images\reset.png" />
+    <None Include="images\reset@2x.png" />
+    <None Include="images\rightsidebaricon.png" />
+    <None Include="images\rightsidebaricon@2x.png" />
+    <None Include="images\run_small.png" />
+    <None Include="images\run_small@2x.png" />
+    <None Include="images\select.png" />
+    <None Include="images\select@2x.png" />
+    <None Include="images\signal.png" />
+    <None Include="images\signal@2x.png" />
+    <None Include="images\slot.png" />
+    <None Include="images\slot@2x.png" />
+    <None Include="images\snapshot.png" />
+    <None Include="images\snapshot@2x.png" />
+    <None Include="images\splitbutton_closebottom.png" />
+    <None Include="images\splitbutton_closebottom@2x.png" />
+    <None Include="images\splitbutton_closeleft.png" />
+    <None Include="images\splitbutton_closeleft@2x.png" />
+    <None Include="images\splitbutton_closeright.png" />
+    <None Include="images\splitbutton_closeright@2x.png" />
+    <None Include="images\splitbutton_closetop.png" />
+    <None Include="images\splitbutton_closetop@2x.png" />
+    <None Include="images\splitbutton_horizontal.png" />
+    <None Include="images\splitbutton_horizontal@2x.png" />
+    <None Include="images\splitbutton_vertical.png" />
+    <None Include="images\splitbutton_vertical@2x.png" />
+    <None Include="images\static.png" />
+    <None Include="images\static@2x.png" />
+    <None Include="images\staticbackground.png" />
+    <None Include="images\staticbackground@2x.png" />
+    <None Include="images\stop_small.png" />
+    <None Include="images\stop_small@2x.png" />
+    <None Include="images\toolbuttonexpandarrow.png" />
+    <None Include="images\toolbuttonexpandarrow@2x.png" />
+    <None Include="images\undo.png" />
+    <None Include="images\undo@2x.png" />
+    <None Include="images\unlocked.png" />
+    <None Include="images\unlocked@2x.png" />
+    <QtRcc Include="utils.qrc">
+    </QtRcc>
+    <None Include="images\warning.png" />
+    <None Include="images\warning@2x.png" />
+    <None Include="images\warningfill.png" />
+    <None Include="images\warningfill@2x.png" />
+    <None Include="images\wizardicon-file.png" />
+    <None Include="images\wizardicon-file@2x.png" />
+    <None Include="images\zoom.png" />
+    <None Include="images\zoom@2x.png" />
+    <None Include="images\zoomin_overlay.png" />
+    <None Include="images\zoomin_overlay@2x.png" />
+    <None Include="images\zoomout_overlay.png" />
+    <None Include="images\zoomout_overlay@2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".\utils.qbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\Utils_resource.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ResourceCompile>
+    <ResourceCompile Include=".\Utilsd_resource.rc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" Qt5Version_x0020_x64="msvc2017_64" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,1619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ansiescapecodehandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basetreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="benchmarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buildablehelperlibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="categorysortfiltermodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="changeset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="checkablemessagebox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classnamevalidatinglineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codegeneration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="completinglineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="completingtextedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleprocess_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="crumblepath.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="delegates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detailsbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="detailswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="differ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dropsupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elfreader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elidinglabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="environmentdialog.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="environmentmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="execmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="fadingindicator.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="faketooltip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancylineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fancymainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filecrumblabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileinprojectfinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filenamevalidatinglineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filesearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filesystemwatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filewizardpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fixedsizeclicklabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flowlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzymatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="guard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="headerviewstretcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="highlightingitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="historycompleter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hostosinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="htmldocextractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="icon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemviews.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="macroexpander.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\mimedatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\mimeglobpattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\mimemagicrule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\mimemagicrulematcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\mimeprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\mimetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\mimetypeparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="navigationtreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="networkaccessmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="newclasswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outputformatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overridecursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parameteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pathchooser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pathlisteditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="persistentsettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="port.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="portlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="processhandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="progressindicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projectintropage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proxyaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proxycredentialsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qtcassert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="qtcolorbutton.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="qtcprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reloadpromptutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="removefiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runextensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="savedaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="savefile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsaccessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsselector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shellcommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shellcommandpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statuslabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stringutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="styledbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stylehelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="synchronousprocess.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="templateengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="temporarydirectory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="temporaryfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textfieldcheckbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textfieldcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textfileformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="theme\theme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooltip\tips.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tooltip\tooltip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="treeviewcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uncommentselection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unixutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="url.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilsicons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="wizard.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="wizardpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QtConcurrentTools">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ansiescapecodehandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="appmainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="basetreeview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="benchmarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buildablehelperlibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="categorysortfiltermodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="changeset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="checkablemessagebox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="classnamevalidatinglineedit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="codegeneration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="completinglineedit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="completingtextedit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="consoleprocess.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="consoleprocess_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="crumblepath.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="declarationmacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="delegates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="detailsbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="detailswidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="differ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="dropsupport.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="tooltip\effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elfreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="elidinglabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="environmentdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="environmentmodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="execmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="executeondestruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fadingindicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="faketooltip.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancylineedit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fancymainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="filecrumblabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="fileinprojectfinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="filenamevalidatinglineedit.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="filesearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="filesystemwatcher.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="fileutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="filewizardpage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="fixedsizeclicklabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="flowlayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functiontraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzymatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="guard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="headerviewstretcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="highlightingitemdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="historycompleter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="hostosinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="htmldocextractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="itemviews.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linecolumn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="link.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macroexpander.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="mapreduce.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="mimetypes\mimedatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimedatabase_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimeglobpattern_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimemagicrule_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimemagicrulematcher_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimeprovider_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimetype_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\mimetypeparser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="navigationtreeview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="networkaccessmanager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="newclasswidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="optional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\optional\optional.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="osspecificaspects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="outputformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="outputformatter.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="overridecursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="parameteraction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="pathchooser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="pathlisteditor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="persistentsettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointeralgorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="portlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="predicates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="processhandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="progressindicator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="projectintropage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="proxyaction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="proxycredentialsdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="qtcassert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="qtcolorbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qtcprocess.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <CustomBuild Include="..\..\shared\qtproject_pch.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="reloadpromptutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="removefiledialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="tooltip\reuse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="runextensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="savedaction.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="savefile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="scopedswap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settingsaccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="settingsselector.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="shellcommand.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="shellcommandpage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="sizedarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstringfwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstringio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstringiterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstringlayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstringliteral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstringmemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smallstringvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="statuslabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="stringutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="styledbar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="stylehelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="synchronousprocess.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="templateengine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temporarydirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temporaryfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="textfieldcheckbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="textfieldcombobox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="textfileformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="theme\theme.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="theme\theme_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="tooltip\tips.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="tooltip\tooltip.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="treemodel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="treeviewcombobox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="uncommentselection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unixutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="url.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilsicons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\variant\variant.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="wizard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="wizardpage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="..\..\shared\qtproject_pch.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClInclude Include="ui_filewizardpage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_newclasswidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_projectintropage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_proxycredentialsdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_removefiledialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="filewizardpage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="newclasswidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="projectintropage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="proxycredentialsdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="removefiledialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Desktop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\app-on-top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\app-on-top@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrowdown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrowdown@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrowup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrowup@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bookmark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bookmark@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\boundingrect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\boundingrect@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\broken.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\broken@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classmemberfunction.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classmemberfunction@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classmembervariable.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classmembervariable@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classparent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classparent@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classrelation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classrelation@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classrelationbackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\classrelationbackground@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\clean_pane_small.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\clean_pane_small@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\close@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\codemodelerror.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\codemodelerror@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\codemodelwarning.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\codemodelwarning@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\collapse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\collapse@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\compile_error_taskbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\compile_error_taskbar@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-first-hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-first-hover@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-first.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-first@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-last-hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-last-hover@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-last.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-last@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-middle-hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-middle-hover@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-middle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-middle@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-single-hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-single-hover@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-single.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crumblepath-segment-single@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\dark_fileicon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\dark_foldericon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\desktopdevicesmall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\desktopdevicesmall@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editclear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editclear@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editcopy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editcopy@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editcut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editcut@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editpaste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\editpaste@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty14.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\enum.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\enum@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\enumerator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\enumerator@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\error.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\error@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\expand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\expand@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\extension.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\extension@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\eye_closed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\eye_closed@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\eye_open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\eye_open@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tooltip\images\f1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fileexport.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fileexport@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filemultiexport.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filemultiexport@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filenew.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filenew@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fileopen@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filesave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filesave@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filledcircle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filledcircle@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filtericon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\filtericon@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fittoview.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fittoview@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\home@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_add@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_add_background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_add_background@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_add_small.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_add_small@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_error.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_error@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_error_background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_error_background@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_reset.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_reset@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_warning.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_warning@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_warning_background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\iconoverlay_warning_background@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\info@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\inputfield.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\inputfield@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\inputfield_disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\inputfield_disabled@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\interrupt_small.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\interrupt_small@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\keyword.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\keyword@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\leftsidebaricon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\leftsidebaricon@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lightbulb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lightbulb@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lightbulbcap.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lightbulbcap@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\linkicon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\linkicon@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\locked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\locked@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\macro.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\macro@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\magnifier.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\magnifier@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\member.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\member@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\minus@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\namespace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\namespace@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\next@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\notloaded.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\notloaded@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ok@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\pan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\pan@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_checked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_checked@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_checked_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_checked_hover@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_hover@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_button_pressed@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_manage_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\panel_manage_button@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plus@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\prev.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\prev@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\private.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\private@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\privatebackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\privatebackground@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressbar@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressindicator_big.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressindicator_big@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressindicator_medium.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressindicator_medium@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressindicator_small.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\progressindicator_small@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\project.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\project@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\property.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\property@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\propertybackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\propertybackground@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\protected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\protected@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\protectedbackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\protectedbackground@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\redo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\redo@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\reload_gray.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\reload_gray@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\replace_a.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\replace_a@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\replace_b.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\replace_b@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\reset.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\reset@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rightsidebaricon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rightsidebaricon@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\run_small.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\run_small@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\select.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\select@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\signal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\signal@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\slot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\slot@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\snapshot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\snapshot@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closebottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closebottom@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closeleft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closeleft@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closeright.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closeright@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closetop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_closetop@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_horizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_horizontal@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_vertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splitbutton_vertical@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\static.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\static@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\staticbackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\staticbackground@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stop_small.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stop_small@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\toolbuttonexpandarrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\toolbuttonexpandarrow@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\undo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\undo@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\unlocked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\unlocked@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="utils.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\warning.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\warning@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\warningfill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\warningfill@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\wizardicon-file.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\wizardicon-file@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoomin_overlay.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoomin_overlay@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoomout_overlay.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoomout_overlay@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include=".\utils.qbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\Utils_resource.rc" />
+    <ResourceCompile Include=".\Utilsd_resource.rc" />
+  </ItemGroup>
+</Project>

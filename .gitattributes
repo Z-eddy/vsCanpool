@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.pri linguist-language=C++
+*.pro linguist-language=C++
+*.html linguist-language=C++
+*.css linguist-language=C++
+*.js linguist-language=C++
+*.sh linguist-language=C++
+*.json linguist-language=C++
+*.py linguist-language=C++

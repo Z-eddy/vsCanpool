@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\shared\aboutdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="popupwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\shared\aboutdialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="popupwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="ui_popupwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_popupwindowdlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="popupwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="popupwindowdlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\shared\res\about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\..\shared\aboutdialog.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="res\close.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\closeMSN.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cross.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\devmachines.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\flag.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\letter.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\logoMSN.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\logooffice.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="popupwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\..\shared\res\qtitan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\qtitanlogo32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\qtitanlogo64x64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\question.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\titleMSN.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\res\topheader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\word2000.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\popupwindow_resource.rc" />
+  </ItemGroup>
+</Project>

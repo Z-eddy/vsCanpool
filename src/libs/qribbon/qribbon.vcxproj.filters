@@ -1,0 +1,4452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\styles\QtnCommonStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\styles\QtnCommonStyle_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnOfficeFrameHelper_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnOfficePopupColorButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnOfficePopupMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnOfficePopupWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\styles\QtnOfficeStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\styles\QtnPopupHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonBackstageView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonGallery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonGroupLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonMainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonQuickAccessBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonSliderPane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonStatusBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\styles\QtnRibbonStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonSystemPopupBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonTabBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ribbon\QtnRibbonToolTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\styles\QtnStyleHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\styles\QtnCommonStyle.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="src\styles\QtnCommonStylePrivate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ribbon\QtnOfficeDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="src\ribbon\QtnOfficeFrameHelper_win.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnOfficePopupColorButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnOfficePopupMenu.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnOfficePopupWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\styles\QtnOfficeStyle.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\styles\QtnPopupHelpers.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBackstageView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBackstageViewPrivate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonBarPrivate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGallery.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGalleryPrivate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGroup.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGroupLayout.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonGroupPrivate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonMainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonPrivate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonQuickAccessBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonSliderPane.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonStatusBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\styles\QtnRibbonStyle.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonSystemPopupBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonTabBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\ribbon\QtnRibbonToolTip.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="src\styles\QtnStyleHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\shared\qtproject_pch.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="..\..\shared\qtproject_pch.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GAEA2014Black\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\AccessTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstageButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstageButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstageButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstageButtonGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstageButtonGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstageButtonGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstageMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstageMenuCommand.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstageMenuPage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstageMenuPageGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstagePaneSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstagePaneSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstagePaneSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\BackstageTopBorder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageBlueClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageBlueGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageBlueGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageBlueGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageBlueGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageBlueGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageCyanClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageCyanGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageCyanGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageCyanGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageCyanGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageCyanGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageGreenClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageGreenGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageGreenGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageGreenGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageGreenGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageGreenGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageOrangeClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageOrangeGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageOrangeGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageOrangeGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageOrangeGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageOrangeGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPagePurpleClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPagePurpleGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPagePurpleGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPagePurpleGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPagePurpleGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPagePurpleGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageRedClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageRedGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageRedGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageRedGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageRedGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageRedGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageYellowClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextPageYellowGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextPageYellowGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextPageYellowGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextPageYellowGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextPageYellowGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabBlue.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabBlueBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabBlueBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabBlueBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabBlueBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabBlueHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabCyan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabCyanBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabCyanBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabCyanBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabCyanBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabCyanHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabGreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabGreenBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabGreenBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabGreenBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabGreenBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabGreenHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabOrange.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabOrangeBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabOrangeBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabOrangeBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabOrangeBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabOrangeHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabPurple.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabPurpleBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabPurpleBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabPurpleBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabPurpleBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabPurpleHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabRed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabRedBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabRedBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabRedBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabRedBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabRedHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabYellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabYellowBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabYellowBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabYellowBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabYellowBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ContextTabYellowHeader.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryPopup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowGlyphsDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowGlyphsDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollArrowsVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollHorizontalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbGripperHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbGripperVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbHorizontalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollThumbVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollThumbVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollThumbVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollThumbVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollVerticalDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryScrollVerticalLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ControlGalleryUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FileButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameBottomLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameBottomRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameSystemButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameSystemButton52.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleClose13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleClose17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleClose23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleCloseButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleCloseButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleCloseButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleCloseButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleMaximize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleMaximize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleMaximize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleMinimize13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleMinimize17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleMinimize23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleRestore13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleRestore17.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTitleRestore23.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTopCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\FrameTopRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ListBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuCheckedItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuCheckedItemMark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuPopupGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuSelectedDisabledItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuSelectedDisabledItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuSelectedItem22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuSelectedItem54.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuSplitDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\MenuSplitItem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\OfficeTheme.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\PopupBarFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\PopupBarResizeGripperFace.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\PopupBarResizeGripperWidth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\PushButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="src\ribbon\QtnRibbonResources.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="res\GAEA2014Black\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupButtonIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupCaption.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupClient.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupScrollButtonLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupScrollButtonRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupScrollLeftGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupScrollRightGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroupSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonGroups.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonOptionButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonQuickAccessArea.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonQuickAccessArea.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonQuickAccessArea.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonQuickAccessArea.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonQuickAccessArea.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonQuickAccessAreaDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonQuickAccessAreaDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonQuickAccessAreaDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonQuickAccessAreaDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonQuickAccessAreaDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonQuickAccessButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonSystemMenu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonSystemMenuButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\RibbonTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\RibbonTabBackgroundDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\RibbonTabBackgroundDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\RibbonTabBackgroundDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\RibbonTabBackgroundDwm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ShortcutBarItems.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\SliderDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\SliderThumb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\SliderTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\SliderTrack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\SliderUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\StatusBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\StatusBarDevider.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\StatusBarGripper.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\StatusBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\StatusBarSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\StatusBarSwitchGroup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\StatusBarSwitchGroup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\StatusBarSwitchGroup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\StatusBarSwitchGroup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\StatusBarSwitchGroup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\SystemIconSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\SystemIconSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\SystemIconSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\SystemIconSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\SystemIconSeparator.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TabItemTop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TabItemTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TabPaneEdge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonCheckBox.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonDropDownGlyph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonRadioButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonSpinArrowGlyphs.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonSpinArrowsVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtons22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtons50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsComboDropDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSingle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitDropDownCenter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitDropDownRight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSpecialSplitLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplit22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplit50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplitDropDown22.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarButtonsSplitDropDown50.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarFaceHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\ToolbarFaceVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TooltipFrame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TrackBarDown13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TrackBarLeft13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TrackBarUp13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TrackbarHorizontal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TrackbarRight13.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\TrackbarVertical.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GAEA2014Black\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Aqua\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Black\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Blue\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2007Silver\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Black\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Blue\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Office2010Silver\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Windows7Scenic\WorkspaceTopLeft.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\qtitan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\qtitanlogo32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\qribbon_resource.rc" />
+    <ResourceCompile Include=".\qribbond_resource.rc" />
+  </ItemGroup>
+</Project>

@@ -135,7 +135,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>C:\QT\QT5.12.7\5.12.7\MSVC2017_64\lib\Qt5Widgetsd.lib;C:\QT\QT5.12.7\5.12.7\MSVC2017_64\lib\Qt5Guid.lib;C:\QT\QT5.12.7\5.12.7\MSVC2017_64\lib\Qt5Testd.lib;C:\QT\QT5.12.7\5.12.7\MSVC2017_64\lib\Qt5Concurrentd.lib;C:\QT\QT5.12.7\5.12.7\MSVC2017_64\lib\Qt5Cored.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(QTDIR)\lib;E:\Practice\C++\VS2017\Qt\Other\qtcanpool\lib\qtproject;E:\Practice\C++\VS2017\Qt\Other\qtcanpool\lib\qtproject\plugins;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\qtproject;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
